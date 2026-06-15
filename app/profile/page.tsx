@@ -3,10 +3,12 @@
 import { useState, useEffect, useRef, type ReactNode } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { z } from "zod";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   AlertCircle,
   CheckCircle2,
+  LogOut,
   Search,
   X,
   ChevronDown,
@@ -821,11 +823,13 @@ function ProfileForm({
 type PageState = "loading" | "no-auth" | "error" | "empty" | "ready";
 
 export default function ProfilePage() {
+  const router = useRouter();
   const [pageState, setPageState] = useState<PageState>("loading");
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [fetchError, setFetchError] = useState<string | null>(null);
   const [isEditing, setIsEditing] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);
+  const [isLoggingOut, setIsLoggingOut] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -864,6 +868,12 @@ export default function ProfilePage() {
     setProfile(updated);
     setIsEditing(false);
     setSaveSuccess(true);
+  };
+
+  const handleLogout = async () => {
+    setIsLoggingOut(true);
+    await supabase.auth.signOut();
+    router.push("/login");
   };
 
   if (pageState === "loading") return <LoadingSkeleton />;
@@ -918,7 +928,25 @@ export default function ProfilePage() {
 
   return (
     <PageWrapper>
-      <h1 className="text-2xl font-bold text-gray-900 mb-1">Your profile</h1>
+      <div className="flex items-center justify-between mb-1">
+        <h1 className="text-2xl font-bold text-gray-900">Your profile</h1>
+        {!isEditing && (
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            onClick={handleLogout}
+            disabled={isLoggingOut}
+          >
+            {isLoggingOut ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <LogOut className="h-4 w-4" />
+            )}
+            {isLoggingOut ? "Logging out…" : "Log out"}
+          </Button>
+        )}
+      </div>
       <p className="text-sm text-gray-500 mb-6">
         Keep your details up to date for better matches.
       </p>
