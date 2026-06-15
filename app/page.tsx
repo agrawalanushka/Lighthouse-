@@ -1,65 +1,153 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Newspaper, Briefcase, ShieldAlert, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+} from "@/components/ui/card";
 
-export default function Home() {
+const signals = [
+  "Shopee expands engineering hub — 200+ roles open",
+  "Frontend Engineer automation risk: 42 / 100",
+  "Top missing skill this week: TypeScript",
+  "GovTech hiring for AI policy & data roles",
+  "Grab posts 18 new backend openings in Singapore",
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="flex flex-col">
+      <section className="bg-primary text-primary-foreground">
+        <div className="mx-auto max-w-5xl px-4 py-20 sm:py-28">
+          <p className="font-mono text-xs uppercase tracking-widest text-primary-foreground/60">
+            For CS students in Singapore
           </p>
+          <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-tight sm:text-5xl">
+            Know where the job market is heading — before it gets there.
+          </h1>
+          <p className="mt-4 max-w-xl text-base text-primary-foreground/70 sm:text-lg">
+            Lighthouse reads the news, the job postings, and the automation
+            trends so you don&apos;t have to. One dashboard for your weekly
+            pulse, your best-matched jobs, and the skills worth learning
+            next.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <Button asChild size="lg">
+              <Link href="/onboarding">
+                Get started
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+            >
+              <Link href="/onboarding">Log in</Link>
+            </Button>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="border-t border-primary-foreground/10 bg-primary/95 overflow-hidden">
+          <div className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-3 text-xs">
+            <span className="shrink-0 font-mono uppercase tracking-widest text-primary-foreground/60">
+              Pulse
+            </span>
+            <div className="relative flex-1 overflow-hidden">
+              <div className="flex w-max animate-[scroll_30s_linear_infinite] gap-10 whitespace-nowrap pl-6 font-mono text-primary-foreground/70">
+                {[...signals, ...signals].map((signal, i) => (
+                  <span key={i} className="flex items-center gap-2">
+                    <span className="h-1 w-1 rounded-full bg-primary-foreground/60" />
+                    {signal}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+
+      <section className="bg-background">
+        <div className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
+          <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
+            Everything you need to plan your next move
+          </h2>
+          <p className="mt-2 max-w-xl text-muted-foreground">
+            Set your target role once. Lighthouse keeps watching the market
+            for you.
+          </p>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+            <Card>
+              <CardHeader>
+                <Newspaper className="h-6 w-6 text-muted-foreground" />
+                <CardTitle className="pt-2 text-base">
+                  Weekly Pulse
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  A personalised digest of tech news and hiring trends —
+                  Shopee, Grab, Sea, GovTech and more — filtered to your
+                  skills and goals.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <Briefcase className="h-6 w-6 text-muted-foreground" />
+                <CardTitle className="pt-2 text-base">
+                  Job matches
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Real listings scored against your profile, so you spend
+                  time applying — not searching.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <ShieldAlert className="h-6 w-6 text-muted-foreground" />
+                <CardTitle className="pt-2 text-base">
+                  Risk &amp; skill gap
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  See how AI is reshaping your target role, and exactly
+                  which skills close the gap fastest.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-secondary">
+        <div className="mx-auto flex max-w-5xl flex-col items-start gap-4 px-4 py-16 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="text-2xl font-bold text-foreground">
+              Set your course.
+            </h2>
+            <p className="mt-1 text-muted-foreground">
+              Takes about two minutes to get your first dashboard.
+            </p>
+          </div>
+          <Button asChild size="lg">
+            <Link href="/onboarding">
+              Get started
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+      </section>
     </div>
   );
 }
