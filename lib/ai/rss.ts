@@ -7,51 +7,104 @@ const parser = new Parser({
   headers: { "User-Agent": "Lighthouse-Career-Navigator/1.0" },
 });
 
-const SG_FEEDS = [
-  { url: "https://e27.co/feed/", name: "e27" },
-  { url: "https://www.techinasia.com/feed", name: "Tech in Asia" },
-  { url: "https://vulcanpost.com/feed/", name: "Vulcan Post" },
+const FEEDS = [
+  {
+    url: "https://www.straitstimes.com/news/singapore/rss.xml",
+    name: "The Straits Times",
+  },
+  {
+    url: "https://www.technologyreview.com/feed/",
+    name: "MIT Technology Review",
+  },
+  {
+    url: "https://feeds.arstechnica.com/arstechnica/index",
+    name: "Ars Technica",
+  },
 ];
 
-// Keywords that indicate relevance to CS students / tech careers
-const TECH_KEYWORDS = [
-  "ai", "machine learning", "software", "developer", "engineer",
-  "startup", "tech", "coding", "data", "cloud", "cybersecurity",
-  "product", "fintech", "deeptech", "vc", "funding", "hiring",
-  "singapore", "sea", "grab", "sea limited", "shopee", "govtech",
-  "open government", "ncs", "singtel", "dbs", "ocbc", "uob", "stripe",
-  "bytedance", "tiktok", "lazada", "carousell", "ninja van",
+// Keywords for GENERAL section — AI reshaping the industry
+export const AI_INDUSTRY_KEYWORDS = [
+  "artificial intelligence", "ai ", " ai,", "generative ai", "large language model",
+  "llm", "gpt", "machine learning", "deep learning", "neural network",
+  "automation", "ai model", "chatbot", "ai tool", "foundation model",
+  "ai regulation", "ai safety", "ai ethics", "ai startup", "ai funding",
+  "openai", "anthropic", "google deepmind", "microsoft ai", "meta ai",
+  "ai hiring", "ai jobs", "ai productivity", "ai coding", "github copilot",
 ];
 
-function isTechRelevant(title: string, summary: string): boolean {
-  const combined = `${title} ${summary}`.toLowerCase();
-  return TECH_KEYWORDS.some((kw) => combined.includes(kw));
+// Keywords for PERSONALIZED section — what CS students care about for their careers
+export const CS_CAREER_KEYWORDS = [
+  // Roles
+  "software engineer", "software developer", "full stack", "frontend", "backend",
+  "data engineer", "data scientist", "ml engineer", "devops", "cloud engineer",
+  "product manager", "cybersecurity", "security engineer",
+  // Skills & technologies
+  "python", "javascript", "typescript", "react", "node.js", "golang", "rust",
+  "kubernetes", "docker", "aws", "gcp", "azure", "sql", "postgresql",
+  "system design", "api", "microservices", "open source",
+  // Career & hiring
+  "internship", "fresh grad", "entry level", "junior developer", "hiring",
+  "salary", "tech job", "tech career", "coding interview", "leetcode",
+  // SG companies
+  "govtech", "grab", "sea limited", "shopee", "garena", "seamoney",
+  "dbs", "ocbc", "uob", "singtel", "ncs", "carousell", "ninja van",
+  "lazada", "bytedance", "tiktok", "stripe", "google singapore",
+  "meta singapore", "microsoft singapore", "amazon singapore",
+  // SG context
+  "singapore tech", "singapore startup", "sg tech", "imda", "mas fintech",
+  "smart nation", "digital government",
+];
+
+function classifyItem(title: string, summary: string): "ai" | "career" | null {
+  const text = `${title} ${summary}`.toLowerCase();
+  const isAI = AI_INDUSTRY_KEYWORDS.some((kw) => text.includes(kw));
+  const isCareer = CS_CAREER_KEYWORDS.some((kw) => text.includes(kw));
+  if (isAI) return "ai";
+  if (isCareer) return "career";
+  return null;
 }
 
-async function fetchFeed(feedUrl: string, sourceName: string): Promise<NewsItem[]> {
+async function fetchFeed(
+  feedUrl: string,
+  sourceName: string
+): Promise<NewsItem[]> {
   try {
     const feed = await parser.parseURL(feedUrl);
     const items: NewsItem[] = [];
 
-    for (const item of feed.items.slice(0, 15)) {
+    for (const item of feed.items.slice(0, 20)) {
       const title = item.title ?? "";
-      const summary = item.contentSnippet ?? item.content ?? item.summary ?? "";
+      const summary =
+        item.contentSnippet ?? item.content ?? item.summary ?? "";
       const url = item.link ?? "";
       const publishedAt = item.pubDate
         ? new Date(item.pubDate).toISOString()
         : new Date().toISOString();
 
       if (!title || !url) continue;
-      if (!isTechRelevant(title, summary)) continue;
+
+      const category = classifyItem(title, summary);
+      if (!category) continue;
+
+      // ST's general feed has crime/property/lifestyle noise — require tech keywords
+      // in the title itself (not just the summary) for ST articles
+      if (sourceName === "The Straits Times") {
+        const titleLower = title.toLowerCase();
+        const hasTechInTitle = [...AI_INDUSTRY_KEYWORDS, ...CS_CAREER_KEYWORDS].some(
+          (kw) => titleLower.includes(kw)
+        );
+        if (!hasTechInTitle) continue;
+      }
 
       items.push({
         id: randomUUID(),
         title,
-        summary: summary.slice(0, 500),
+        summary: summary.slice(0, 600),
         url,
         source: sourceName,
         publishedAt,
-        relevantSkills: [],
+        // Stash category in relevantSkills temporarily so digest.ts can split
+        relevantSkills: [category],
       });
     }
 
@@ -62,21 +115,24 @@ async function fetchFeed(feedUrl: string, sourceName: string): Promise<NewsItem[
   }
 }
 
-export async function fetchSGTechNews(): Promise<NewsItem[]> {
+export interface CategorisedNews {
+  aiItems: NewsItem[];
+  careerItems: NewsItem[];
+}
+
+export async function fetchCategorisedNews(): Promise<CategorisedNews> {
   const results = await Promise.allSettled(
-    SG_FEEDS.map((f) => fetchFeed(f.url, f.name))
+    FEEDS.map((f) => fetchFeed(f.url, f.name))
   );
 
-  const allItems: NewsItem[] = [];
-  for (const result of results) {
-    if (result.status === "fulfilled") {
-      allItems.push(...result.value);
-    }
+  const all: NewsItem[] = [];
+  for (const r of results) {
+    if (r.status === "fulfilled") all.push(...r.value);
   }
 
-  // Sort by most recent, deduplicate by URL
+  // Deduplicate by URL, sort newest first
   const seen = new Set<string>();
-  const deduped = allItems
+  const deduped = all
     .sort(
       (a, b) =>
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
@@ -87,5 +143,8 @@ export async function fetchSGTechNews(): Promise<NewsItem[]> {
       return true;
     });
 
-  return deduped;
+  return {
+    aiItems: deduped.filter((n) => n.relevantSkills[0] === "ai"),
+    careerItems: deduped.filter((n) => n.relevantSkills[0] === "career"),
+  };
 }

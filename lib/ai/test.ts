@@ -1,6 +1,6 @@
 import { callClaude } from "./index";
 import { getEmbedding } from "./embeddings";
-import { personalizedNewsRewritingPrompt } from "./prompts";
+import { personalizedNewsPrompt } from "./prompts";
 import { UserProfile, NewsItem } from "@/lib/types";
 
 // Example test: one news item + one user profile → one personalized summary
@@ -34,7 +34,7 @@ export async function testPersonalizedNews() {
     console.log("\n=== Testing Claude Personalization ===\n");
 
     // Step 1: Generate personalized news using Claude
-    const prompt = personalizedNewsRewritingPrompt(mockNews, mockUser);
+    const prompt = personalizedNewsPrompt(mockNews, mockUser);
     const response = await callClaude({ prompt, maxTokens: 500 });
 
     console.log("Claude Response:");

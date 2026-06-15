@@ -13,15 +13,15 @@ async function resolveUser(req: NextRequest): Promise<string | null> {
   return req.nextUrl.searchParams.get("userId");
 }
 
-// Used by Anushka's /api/dashboard — returns the single top PulseItem.
+// Used by Anushka's /api/dashboard — returns the top personalised PulseItem.
+// Returns the most career-relevant item (personalizedItems[0]), not the general AI news.
 export async function GET(req: NextRequest) {
   const userId = (await resolveUser(req)) ?? "demo-user";
 
   try {
-    // Prefer cached digest for this week to avoid re-running Claude
     const cached = await getCachedDigest(userId, weekOf());
-    if (cached?.items?.[0]) {
-      return NextResponse.json(cached.items[0]);
+    if (cached?.personalizedItems?.[0]) {
+      return NextResponse.json(cached.personalizedItems[0]);
     }
 
     const profile = (await getUserProfile(userId)) ?? {
@@ -42,9 +42,9 @@ export async function GET(req: NextRequest) {
       ? await generateDigest(profile)
       : seedDigest(userId);
 
-    return NextResponse.json(digest.items[0] ?? null);
+    return NextResponse.json(digest.personalizedItems[0] ?? null);
   } catch (err) {
     console.error("GET /api/pulse/highlight error:", err);
-    return NextResponse.json(seedDigest(userId).items[0] ?? null);
+    return NextResponse.json(seedDigest(userId).personalizedItems[0] ?? null);
   }
 }
