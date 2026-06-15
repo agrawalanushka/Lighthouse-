@@ -1,5 +1,4 @@
-import type { NextRequest } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { createSupabaseServerClient } from "@/lib/supabase";
 import type { DashboardSnapshot } from "@/lib/types";
 import {
   mockPulseItem,
@@ -7,6 +6,7 @@ import {
   mockSkillGap,
   mockWeeklyFocus,
 } from "@/lib/mock-dashboard";
+import type { NextRequest } from "next/server";
 
 // /api/dashboard is the only route allowed to consume other features' APIs
 // (per CLAUDE.md cross-feature consumption rule).
@@ -20,28 +20,25 @@ import {
 //   - weeklyFocus -> LLM-generated, cached 24h (Rishi's /lib/ai)
 
 export async function GET(request: NextRequest) {
-  const authHeader = request.headers.get("Authorization");
-  if (!authHeader?.startsWith("Bearer ")) {
-    return Response.json({ error: "Unauthorized" }, { status: 401 });
-  }
+  const supabase = await createSupabaseServerClient();
 
-  const token = authHeader.slice(7);
   const {
     data: { user },
     error: authError,
-  } = await supabase.auth.getUser(token);
+  } = await supabase.auth.getUser();
 
   if (authError || !user) {
     return Response.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  // Real call to Amudhan's top-matches route
+  // Forward the user's cookies to Amudhan's top-matches route so its
+  // server client can also resolve the session.
   let topJobs: DashboardSnapshot["topJobs"] = [];
   try {
     const jobsRes = await fetch(
       `${request.nextUrl.origin}/api/jobs/top-matches`,
       {
-        headers: { Authorization: authHeader },
+        headers: { cookie: request.headers.get("cookie") ?? "" },
         cache: "no-store",
       }
     );
@@ -49,7 +46,6 @@ export async function GET(request: NextRequest) {
       topJobs = await jobsRes.json();
     }
   } catch {
-    // Jobs API unreachable — leave empty, JobMatchesCard shows its empty state
     topJobs = [];
   }
 

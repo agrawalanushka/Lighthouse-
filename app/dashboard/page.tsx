@@ -1,7 +1,6 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { supabase } from "@/lib/supabase";
 import type { DashboardSnapshot } from "@/lib/types";
 import {
   PulseCard,
@@ -30,16 +29,9 @@ import {
 } from "@/components/dashboard/weekly-focus-widget";
 
 async function fetchDashboard(): Promise<DashboardSnapshot> {
-  const { data: sessionData } = await supabase.auth.getSession();
-  const token = sessionData.session?.access_token;
-
-  if (!token) {
-    throw new Error("Not authenticated");
-  }
-
-  const res = await fetch("/api/dashboard", {
-    headers: { Authorization: `Bearer ${token}` },
-  });
+  // Cookies are sent automatically; the server client in
+  // /lib/supabase.ts reads the session from them.
+  const res = await fetch("/api/dashboard");
 
   if (!res.ok) {
     throw new Error("Failed to load dashboard");
