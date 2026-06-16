@@ -54,7 +54,10 @@ export type PulseDigest = {
   id: string;
   userId: string;
   weekOf: string;
-  items: PulseItem[];
+  // General: how AI is reshaping the tech industry broadly (not user-specific)
+  generalItems: PulseItem[];
+  // Personalized: matched to the user's skills + target roles from onboarding
+  personalizedItems: PulseItem[];
   generatedAt: string;
 };
 
