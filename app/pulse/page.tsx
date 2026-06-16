@@ -1,9 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { formatDistanceToNow } from "date-fns";
 import { RefreshCw, ExternalLink, Zap, Globe, User } from "lucide-react";
 import { PulseDigest, PulseItem } from "@/lib/types";
+
+type Tab = "general" | "personalized";
 
 // TODO: replace with real auth user ID once Min wires Supabase auth
 const DEMO_USER_ID = "demo-user";
@@ -102,6 +105,11 @@ export default function PulsePage() {
     },
   });
 
+  const [activeTab, setActiveTab] = useState<Tab>("general");
+
+  const generalCount = digest?.generalItems?.length ?? 0;
+  const personalizedCount = digest?.personalizedItems?.length ?? 0;
+
   return (
     <div className="p-8 max-w-3xl mx-auto">
       {/* Header */}
@@ -142,60 +150,90 @@ export default function PulsePage() {
         </div>
       )}
 
-      {/* ── SECTION 1: AI & The Industry ── */}
-      <section className="mb-10">
-        <div className="flex items-center gap-2 mb-1">
-          <Globe className="w-5 h-5 text-purple-600" />
-          <h2 className="text-lg font-bold text-gray-900">AI &amp; The Industry</h2>
-        </div>
-        <p className="text-sm text-gray-500 mb-5">
-          How AI is reshaping tech — what every CS student should know
-        </p>
+      {/* ── Tab switcher ── */}
+      <div className="flex gap-1 p-1 bg-gray-100 rounded-lg mb-6 w-fit">
+        <button
+          onClick={() => setActiveTab("general")}
+          className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition ${
+            activeTab === "general"
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-500 hover:text-gray-700"
+          }`}
+        >
+          <Globe className="w-4 h-4" />
+          AI &amp; The Industry
+          {generalCount > 0 && (
+            <span className="text-xs bg-gray-200 text-gray-600 px-1.5 py-0.5 rounded-full">
+              {generalCount}
+            </span>
+          )}
+        </button>
+        <button
+          onClick={() => setActiveTab("personalized")}
+          className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md transition ${
+            activeTab === "personalized"
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-500 hover:text-gray-700"
+          }`}
+        >
+          <User className="w-4 h-4" />
+          Personalised For You
+          {personalizedCount > 0 && (
+            <span className="text-xs bg-gray-200 text-gray-600 px-1.5 py-0.5 rounded-full">
+              {personalizedCount}
+            </span>
+          )}
+        </button>
+      </div>
 
-        {isLoading ? (
-          <div className="space-y-4">
-            <SkeletonCard />
-            <SkeletonCard />
-          </div>
-        ) : digest?.generalItems && digest.generalItems.length > 0 ? (
-          <div className="space-y-4">
-            {digest.generalItems.map((item, idx) => (
-              <NewsCard key={item.id} item={item} index={idx} />
-            ))}
-          </div>
-        ) : (
-          <EmptySection message="No AI industry news this week. Hit Regenerate to try again." />
-        )}
-      </section>
+      {/* ── TAB 1: AI & The Industry ── */}
+      {activeTab === "general" && (
+        <section>
+          <p className="text-sm text-gray-500 mb-5">
+            How AI is reshaping tech — what every CS student should know
+          </p>
 
-      <hr className="border-gray-100 mb-10" />
+          {isLoading ? (
+            <div className="space-y-4">
+              <SkeletonCard />
+              <SkeletonCard />
+            </div>
+          ) : digest?.generalItems && digest.generalItems.length > 0 ? (
+            <div className="space-y-4">
+              {digest.generalItems.map((item, idx) => (
+                <NewsCard key={item.id} item={item} index={idx} />
+              ))}
+            </div>
+          ) : (
+            <EmptySection message="No AI industry news this week. Hit Regenerate to try again." />
+          )}
+        </section>
+      )}
 
-      {/* ── SECTION 2: Personalised For You ── */}
-      <section>
-        <div className="flex items-center gap-2 mb-1">
-          <User className="w-5 h-5 text-blue-600" />
-          <h2 className="text-lg font-bold text-gray-900">Personalised For You</h2>
-        </div>
-        <p className="text-sm text-gray-500 mb-5">
-          Based on your skills and target roles from your profile
-        </p>
+      {/* ── TAB 2: Personalised For You ── */}
+      {activeTab === "personalized" && (
+        <section>
+          <p className="text-sm text-gray-500 mb-5">
+            Based on your skills and target roles from your profile
+          </p>
 
-        {isLoading ? (
-          <div className="space-y-4">
-            <SkeletonCard />
-            <SkeletonCard />
-            <SkeletonCard />
-          </div>
-        ) : digest?.personalizedItems && digest.personalizedItems.length > 0 ? (
-          <div className="space-y-4">
-            {digest.personalizedItems.map((item, idx) => (
-              <NewsCard key={item.id} item={item} index={idx} />
-            ))}
-          </div>
-        ) : (
-          <EmptySection message="Complete your profile to get personalised news. Hit Regenerate after." />
-        )}
-      </section>
+          {isLoading ? (
+            <div className="space-y-4">
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+            </div>
+          ) : digest?.personalizedItems && digest.personalizedItems.length > 0 ? (
+            <div className="space-y-4">
+              {digest.personalizedItems.map((item, idx) => (
+                <NewsCard key={item.id} item={item} index={idx} />
+              ))}
+            </div>
+          ) : (
+            <EmptySection message="Complete your profile to get personalised news. Hit Regenerate after." />
+          )}
+        </section>
+      )}
     </div>
   );
 }

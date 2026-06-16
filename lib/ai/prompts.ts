@@ -51,13 +51,18 @@ Title: ${newsItem.title}
 Summary: ${newsItem.summary}
 Source: ${newsItem.source}
 
-Write like a senior friend in the SG tech industry giving real, specific advice. Reference actual SG companies (Grab, GovTech, Sea, DBS, Carousell, etc.) where relevant. Connect the news directly to their listed skills or target roles — do not be generic.
+Write like a senior friend in the SG tech industry giving real, specific advice.
+
+IMPORTANT — what "relevant" means here:
+- FIRST priority: connect to the SPECIFIC SKILLS and TECHNOLOGIES the student listed (${skills}). If the article is about a language, framework, tool, or technique they use or want to learn, lead with that — e.g. "this changes how you'll write React" or "this affects your Python ML workflow".
+- SECOND priority: connect to their target roles (${roles}).
+- Only mention SG companies (Grab, GovTech, Sea, DBS, etc.) when the article genuinely involves them or it sharpens the point. Do NOT force a company reference if the news is really about a skill or technology.
 
 Return ONLY valid JSON:
 {
-  "headline": "One punchy sentence tailored to them and their skills/roles (max 15 words)",
-  "summary": "2-3 sentences: what happened and why it matters specifically for their career path",
-  "relevance": "One sentence connecting this to their specific skills or target roles"
+  "headline": "One punchy sentence tied to their skills or roles (max 15 words)",
+  "summary": "2-3 sentences: what happened and why it matters for their skills/career path",
+  "relevance": "One sentence connecting this to a SPECIFIC skill they listed or a target role"
 }`;
 }
 
@@ -100,7 +105,11 @@ Skills: ${userProfile.skills.join(", ")}
 Target Roles: ${userProfile.targetRoles.join(", ")}
 Interests: ${userProfile.interests.join(", ")}
 
-Prefer articles about: their target roles, their listed skills, SG companies hiring in their area, career advice for their specific track.
+Prioritise in this order:
+1. Articles about the SPECIFIC skills/technologies they listed (${userProfile.skills.join(", ")}) — language/framework/tool updates, techniques.
+2. Articles about their target roles (${userProfile.targetRoles.join(", ")}).
+3. SG companies hiring or building in their area.
+Avoid picking generic company-hiring news if a more skill-relevant article is available.
 
 Articles:
 ${list}

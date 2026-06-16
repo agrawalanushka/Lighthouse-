@@ -1,6 +1,7 @@
 import { randomUUID } from "crypto";
 import { UserProfile, PulseDigest, PulseItem, NewsItem } from "@/lib/types";
 import { callClaude } from "./index";
+import { getEmbeddings, cosineSimilarity } from "./embeddings";
 import { fetchCategorisedNews } from "./rss";
 import {
   generalAINewsPrompt,
@@ -109,6 +110,58 @@ async function selectItems(
   }
 }
 
+// Ranks articles by semantic similarity to the user's SELECTED skills + target
+// roles from onboarding — so a React/Python dev surfaces React/Python news, not
+// just SG company hiring posts. Falls back to Claude selection if embeddings fail.
+async function rankBySkillRelevance(
+  pool: NewsItem[],
+  userProfile: UserProfile,
+  count: number
+): Promise<NewsItem[]> {
+  if (pool.length <= count) return pool;
+
+  const profileText = [
+    ...userProfile.skills,
+    ...userProfile.targetRoles,
+    ...userProfile.interests,
+  ]
+    .filter(Boolean)
+    .join(", ");
+
+  // No skills selected yet — can't rank by skill, defer to Claude selection
+  if (!profileText.trim()) {
+    return selectItems(
+      pool,
+      selectPersonalizedItemsPrompt(pool, userProfile, count),
+      count
+    );
+  }
+
+  try {
+    const texts = [
+      profileText,
+      ...pool.map((n) => `${n.title}. ${n.summary}`),
+    ];
+    const [profileEmbedding, ...itemEmbeddings] = await getEmbeddings(texts);
+
+    return pool
+      .map((item, i) => ({
+        item,
+        score: cosineSimilarity(profileEmbedding, itemEmbeddings[i]),
+      }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, count)
+      .map((s) => s.item);
+  } catch (err) {
+    console.warn("Embedding ranking failed, using Claude selection:", err);
+    return selectItems(
+      pool,
+      selectPersonalizedItemsPrompt(pool, userProfile, count),
+      count
+    );
+  }
+}
+
 // --- Personalization ---
 
 async function rewriteItem(
@@ -183,19 +236,28 @@ export async function generateDigest(
     }
   }
 
-  // 2. Claude selects the best items from each pool
-  const [selectedAI, selectedCareer] = await Promise.all([
-    selectItems(
-      aiPool,
-      selectGeneralAIItemsPrompt(aiPool, GENERAL_COUNT),
-      GENERAL_COUNT
-    ),
-    selectItems(
-      careerPool,
-      selectPersonalizedItemsPrompt(careerPool, userProfile, PERSONALIZED_COUNT),
-      PERSONALIZED_COUNT
-    ),
-  ]);
+  // 2a. General section: Claude picks the most impactful AI-industry stories
+  const selectedAI = await selectItems(
+    aiPool,
+    selectGeneralAIItemsPrompt(aiPool, GENERAL_COUNT),
+    GENERAL_COUNT
+  );
+
+  // 2b. Personalized section: rank a BROAD pool (career + AI articles) by semantic
+  // similarity to the user's selected skills. Exclude anything already shown in the
+  // general section so the two tabs don't repeat the same article.
+  const usedUrls = new Set(selectedAI.map((n) => n.url));
+  const personalizedPool = [...careerPool, ...aiPool].filter((n) => {
+    if (usedUrls.has(n.url)) return false;
+    usedUrls.add(n.url);
+    return true;
+  });
+
+  const selectedCareer = await rankBySkillRelevance(
+    personalizedPool,
+    userProfile,
+    PERSONALIZED_COUNT
+  );
 
   // 3. Claude rewrites each item — general and personalized concurrently
   const [generalItems, personalizedItems] = await Promise.all([

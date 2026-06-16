@@ -88,5 +88,41 @@
     "source": "Tech in Asia",
     "publishedAt": "2026-06-01T09:00:00.000Z",
     "relevantSkills": ["Go", "C++", "Backend Engineering", "Infrastructure", "Ad Tech"]
+  },
+  {
+    "id": "seed-news-11",
+    "title": "React 19 Ships Stable: Server Components and Actions Become the Default",
+    "summary": "React 19 is now stable, making Server Components, the new Actions API, and the use() hook first-class. The release simplifies data fetching and form handling, and most large React codebases will migrate over the next year. Teams report meaningfully less client-side boilerplate after adopting Server Components.",
+    "url": "https://react.dev/blog",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-11T09:00:00.000Z",
+    "relevantSkills": ["React", "JavaScript", "TypeScript", "Frontend"]
+  },
+  {
+    "id": "seed-news-12",
+    "title": "TypeScript 5.9 Lands With Faster Type-Checking and Better Inference",
+    "summary": "The TypeScript 5.9 release cuts type-checking time on large projects and improves inference for generics and conditional types. The team also previewed work on a native Go-based compiler that promises order-of-magnitude faster builds, a major shift for big TypeScript codebases.",
+    "url": "https://devblogs.microsoft.com/typescript/",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-10T08:00:00.000Z",
+    "relevantSkills": ["TypeScript", "JavaScript", "Tooling"]
+  },
+  {
+    "id": "seed-news-13",
+    "title": "Python 3.13 Makes the Free-Threaded (No-GIL) Build Officially Supported",
+    "summary": "Python 3.13 ships an officially supported free-threaded build that removes the Global Interpreter Lock, unlocking true multi-core parallelism for CPU-bound workloads. Data and ML engineers stand to benefit most, though some C-extension libraries still need updating for full compatibility.",
+    "url": "https://docs.python.org/3/whatsnew/3.13.html",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-09T07:30:00.000Z",
+    "relevantSkills": ["Python", "Data Engineering", "Machine Learning", "Concurrency"]
+  },
+  {
+    "id": "seed-news-14",
+    "title": "PostgreSQL 17 Pushes Into Vector Search Territory With Native pgvector Gains",
+    "summary": "PostgreSQL 17, paired with the latest pgvector, brings faster approximate nearest-neighbour search and better indexing for embeddings — letting teams run semantic search and RAG workloads directly in Postgres instead of a separate vector database. SQL and backend engineers can now own the AI data layer without new infrastructure.",
+    "url": "https://www.postgresql.org/about/news/",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-08T11:00:00.000Z",
+    "relevantSkills": ["SQL", "PostgreSQL", "Backend", "Embeddings", "Data Engineering"]
   }
 ]
