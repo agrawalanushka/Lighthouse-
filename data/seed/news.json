@@ -1,0 +1,128 @@
+[
+  {
+    "id": "seed-news-1",
+    "title": "GovTech Singapore Doubles Engineering Headcount with 500 New Tech Roles",
+    "summary": "Government Technology Agency of Singapore is expanding its engineering team significantly, opening roles across software engineering, data science, cybersecurity, and cloud infrastructure. The hiring push supports the Smart Nation initiative and digital government transformation projects.",
+    "url": "https://www.tech.gov.sg/careers",
+    "source": "GovTech Singapore",
+    "publishedAt": "2026-06-10T06:00:00.000Z",
+    "relevantSkills": ["Python", "Java", "Cloud", "DevOps", "Cybersecurity"]
+  },
+  {
+    "id": "seed-news-2",
+    "title": "Grab Launches AI-Powered Route Optimisation Engine Built by SG Engineering Team",
+    "summary": "Grab's Singapore engineering hub has released an internal AI system that cut delivery times by 18% across Southeast Asia. The team used reinforcement learning and graph neural networks, with the core model trained on Grab's proprietary logistics data.",
+    "url": "https://engineering.grab.com",
+    "source": "Grab Engineering Blog",
+    "publishedAt": "2026-06-09T08:00:00.000Z",
+    "relevantSkills": ["Machine Learning", "Python", "Graph Neural Networks", "Reinforcement Learning"]
+  },
+  {
+    "id": "seed-news-3",
+    "title": "Sea Limited Opens Applications for 2026 Engineering Internship — 200 Slots Across Shopee, Garena, SeaMoney",
+    "summary": "Sea Limited's three business units are collectively hiring 200 engineering interns for the July 2026 intake. Roles span backend, frontend, mobile, data, and ML engineering. NUS, NTU, and SMU students get priority interview slots through campus partnerships.",
+    "url": "https://www.sea.com/careers",
+    "source": "Sea Limited",
+    "publishedAt": "2026-06-08T10:00:00.000Z",
+    "relevantSkills": ["Java", "Go", "React", "Python", "Data Engineering"]
+  },
+  {
+    "id": "seed-news-4",
+    "title": "MAS Fintech Festival 2026 Opens Hackathon Track for University Teams",
+    "summary": "The Monetary Authority of Singapore's annual Fintech Festival is hosting a dedicated university hackathon this year, with S$50,000 in prizes. Problem statements centre on AI in financial compliance, fraud detection, and digital identity. Teams of 3-5 students can apply through their universities.",
+    "url": "https://www.fintechfestival.sg",
+    "source": "MAS Fintech Festival",
+    "publishedAt": "2026-06-07T09:00:00.000Z",
+    "relevantSkills": ["AI", "Blockchain", "Python", "Compliance Tech"]
+  },
+  {
+    "id": "seed-news-5",
+    "title": "Carousell's Engineering Blog: How They Built Real-Time Search at Scale with Elasticsearch",
+    "summary": "Carousell's Singapore engineering team published a detailed post on their migration to a multi-cluster Elasticsearch setup that serves 50 million search queries daily. The post covers index strategy, query optimisation, and lessons from a major production incident.",
+    "url": "https://engineering.carousell.com",
+    "source": "Carousell Engineering",
+    "publishedAt": "2026-06-06T07:00:00.000Z",
+    "relevantSkills": ["Elasticsearch", "Search", "Backend Engineering", "Distributed Systems"]
+  },
+  {
+    "id": "seed-news-6",
+    "title": "DBS Bank Accelerates AI Hiring — 1,000 New Tech Roles Including ML Engineers and AI Product Managers",
+    "summary": "DBS Bank announced plans to hire 1,000 technology professionals in 2026, with a strong focus on generative AI, machine learning, and data engineering. The bank is building in-house LLM capabilities for wealth management, fraud detection, and customer service automation.",
+    "url": "https://www.dbs.com/careers",
+    "source": "DBS Bank",
+    "publishedAt": "2026-06-05T08:00:00.000Z",
+    "relevantSkills": ["Machine Learning", "LLMs", "Python", "Data Engineering", "SQL"]
+  },
+  {
+    "id": "seed-news-7",
+    "title": "IMDA Launches S$30M Digital Skills Fund for Fresh Graduates Entering Tech Roles",
+    "summary": "The Infocomm Media Development Authority is rolling out a new S$30 million fund to subsidise training for fresh graduates in cloud, cybersecurity, and AI. Eligible candidates get up to S$5,000 in training credits redeemable at approved providers including AWS, Google, and NTUC LearningHub.",
+    "url": "https://www.imda.gov.sg/careers-and-learning",
+    "source": "IMDA Singapore",
+    "publishedAt": "2026-06-04T06:30:00.000Z",
+    "relevantSkills": ["Cloud", "AWS", "Cybersecurity", "AI", "Certifications"]
+  },
+  {
+    "id": "seed-news-8",
+    "title": "Ninja Van's Data Science Team Is Hiring — and They Build at Unusual Scale for SG",
+    "summary": "Ninja Van's Singapore data science team shared an open role and a rare look inside their ML infrastructure, which handles 1.2 million parcel routing decisions per day. The team uses XGBoost, custom time-series models, and a homegrown feature store built on top of dbt and Snowflake.",
+    "url": "https://ninjavan.co/careers",
+    "source": "Ninja Van",
+    "publishedAt": "2026-06-03T11:00:00.000Z",
+    "relevantSkills": ["Data Science", "Machine Learning", "XGBoost", "dbt", "Snowflake", "Python"]
+  },
+  {
+    "id": "seed-news-9",
+    "title": "NUS and NTU Rank in Top 20 Globally for Computer Science — What It Means for Hiring",
+    "summary": "The 2026 QS rankings placed NUS at #13 and NTU at #17 globally for Computer Science. Singapore recruiters note that this has already translated to more aggressive overseas interest from US and European tech firms recruiting directly from campus.",
+    "url": "https://www.straitstimes.com/singapore/education",
+    "source": "The Straits Times",
+    "publishedAt": "2026-06-02T10:00:00.000Z",
+    "relevantSkills": []
+  },
+  {
+    "id": "seed-news-10",
+    "title": "ByteDance Singapore Engineering Hub Now Largest Outside China — Hundreds of Roles Open",
+    "summary": "ByteDance has quietly grown its Singapore engineering hub to over 2,000 engineers, making it the company's largest R&D base outside China. Active hiring spans backend, infrastructure, ad tech, and AI safety teams. Competitive compensation reportedly rivals US big tech packages.",
+    "url": "https://jobs.bytedance.com",
+    "source": "Tech in Asia",
+    "publishedAt": "2026-06-01T09:00:00.000Z",
+    "relevantSkills": ["Go", "C++", "Backend Engineering", "Infrastructure", "Ad Tech"]
+  },
+  {
+    "id": "seed-news-11",
+    "title": "React 19 Ships Stable: Server Components and Actions Become the Default",
+    "summary": "React 19 is now stable, making Server Components, the new Actions API, and the use() hook first-class. The release simplifies data fetching and form handling, and most large React codebases will migrate over the next year. Teams report meaningfully less client-side boilerplate after adopting Server Components.",
+    "url": "https://react.dev/blog",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-11T09:00:00.000Z",
+    "relevantSkills": ["React", "JavaScript", "TypeScript", "Frontend"]
+  },
+  {
+    "id": "seed-news-12",
+    "title": "TypeScript 5.9 Lands With Faster Type-Checking and Better Inference",
+    "summary": "The TypeScript 5.9 release cuts type-checking time on large projects and improves inference for generics and conditional types. The team also previewed work on a native Go-based compiler that promises order-of-magnitude faster builds, a major shift for big TypeScript codebases.",
+    "url": "https://devblogs.microsoft.com/typescript/",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-10T08:00:00.000Z",
+    "relevantSkills": ["TypeScript", "JavaScript", "Tooling"]
+  },
+  {
+    "id": "seed-news-13",
+    "title": "Python 3.13 Makes the Free-Threaded (No-GIL) Build Officially Supported",
+    "summary": "Python 3.13 ships an officially supported free-threaded build that removes the Global Interpreter Lock, unlocking true multi-core parallelism for CPU-bound workloads. Data and ML engineers stand to benefit most, though some C-extension libraries still need updating for full compatibility.",
+    "url": "https://docs.python.org/3/whatsnew/3.13.html",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-09T07:30:00.000Z",
+    "relevantSkills": ["Python", "Data Engineering", "Machine Learning", "Concurrency"]
+  },
+  {
+    "id": "seed-news-14",
+    "title": "PostgreSQL 17 Pushes Into Vector Search Territory With Native pgvector Gains",
+    "summary": "PostgreSQL 17, paired with the latest pgvector, brings faster approximate nearest-neighbour search and better indexing for embeddings — letting teams run semantic search and RAG workloads directly in Postgres instead of a separate vector database. SQL and backend engineers can now own the AI data layer without new infrastructure.",
+    "url": "https://www.postgresql.org/about/news/",
+    "source": "Ars Technica",
+    "publishedAt": "2026-06-08T11:00:00.000Z",
+    "relevantSkills": ["SQL", "PostgreSQL", "Backend", "Embeddings", "Data Engineering"]
+  }
+]
