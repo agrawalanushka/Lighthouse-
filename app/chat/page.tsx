@@ -1,13 +1,20 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { QueryClient, QueryClientProvider, useMutation } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider, useMutation, useQuery } from "@tanstack/react-query";
+import type { RiskScore, PulseItem } from "@/lib/types";
 import { Bot, Send, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 
 type Message = { role: "user" | "assistant"; content: string };
+
+type MutationArg = {
+  allMessages: Message[];
+  riskScore: RiskScore | null | undefined;
+  pulseItems: PulseItem[] | null | undefined;
+};
 
 const SUGGESTIONS = [
   "What does my AI Intervention Score mean?",
@@ -60,16 +67,48 @@ function ChatPage() {
   const [apiError, setApiError] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
 
+  const { data: riskScore } = useQuery<RiskScore | null>({
+    queryKey: ["chat-risk"],
+    queryFn: async () => {
+      const res = await fetch(
+        "/api/risk?roleId=frontend-engineer&seniority=junior"
+      );
+      if (!res.ok) return null;
+      const arr: RiskScore[] = await res.json();
+      return arr[0] ?? null;
+    },
+    staleTime: 5 * 60 * 1000,
+  });
+
+  const { data: pulseItems } = useQuery<PulseItem[] | null>({
+    queryKey: ["chat-pulse"],
+    queryFn: async () => {
+      const res = await fetch("/api/pulse");
+      if (!res.ok) return null;
+      const digest = await res.json();
+      return [
+        ...(digest.generalItems ?? []),
+        ...(digest.personalizedItems ?? []),
+      ] as PulseItem[];
+    },
+    staleTime: 5 * 60 * 1000,
+  });
+
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
   const { mutate: sendMessage, isPending } = useMutation({
-    mutationFn: async (allMessages: Message[]) => {
+    mutationFn: async ({ allMessages, riskScore: rs, pulseItems: pi }: MutationArg) => {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: allMessages, userId: "demo-user" }),
+        body: JSON.stringify({
+          messages: allMessages,
+          userId: "demo-user",
+          riskScore: rs ?? null,
+          pulseItems: pi ?? null,
+        }),
       });
       if (!res.ok) throw new Error("API error");
       const data = await res.json();
@@ -92,7 +131,7 @@ function ChatPage() {
     const userMessage: Message = { role: "user", content: trimmed };
     const next = [...messages, userMessage];
     setMessages(next);
-    sendMessage(next);
+    sendMessage({ allMessages: next, riskScore, pulseItems });
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
