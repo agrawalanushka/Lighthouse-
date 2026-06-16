@@ -9,7 +9,7 @@ import {
   selectGeneralAIItemsPrompt,
   selectPersonalizedItemsPrompt,
 } from "./prompts";
-import { createServerClient } from "@/lib/supabase-server";
+import { createServiceRoleClient } from "@/lib/supabase-server";
 import seedNews from "@/data/seed/news.json";
 
 const GENERAL_COUNT = 2;
@@ -29,7 +29,7 @@ export async function getCachedDigest(
   userId: string,
   week: string
 ): Promise<PulseDigest | null> {
-  const supabase = createServerClient();
+  const supabase = createServiceRoleClient();
   const { data, error } = await supabase
     .from("pulse_digests")
     .select("*")
@@ -56,7 +56,7 @@ export async function getCachedDigest(
 }
 
 async function saveDigest(digest: PulseDigest): Promise<void> {
-  const supabase = createServerClient();
+  const supabase = createServiceRoleClient();
   const { error } = await supabase.from("pulse_digests").upsert(
     {
       id: digest.id,
@@ -76,7 +76,7 @@ async function saveDigest(digest: PulseDigest): Promise<void> {
 export async function getUserProfile(
   userId: string
 ): Promise<UserProfile | null> {
-  const supabase = createServerClient();
+  const supabase = createServiceRoleClient();
   const { data, error } = await supabase
     .from("profiles")
     .select("*")

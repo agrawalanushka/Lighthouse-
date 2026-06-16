@@ -1,15 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { generateDigest, getCachedDigest, getUserProfile, seedDigest, weekOf } from "@/lib/ai/digest";
-import { createServerClient } from "@/lib/supabase-server";
+import { createSupabaseServerClient } from "@/lib/supabase-server";
 
 async function resolveUser(req: NextRequest): Promise<string | null> {
-  // Try cookie-based auth first (once Min wires Supabase auth)
-  const authHeader = req.headers.get("authorization");
-  if (authHeader?.startsWith("Bearer ")) {
-    const token = authHeader.slice(7);
-    const supabase = createServerClient();
-    const { data } = await supabase.auth.getUser(token);
+  // Real logged-in user from the cookie session (Min's Supabase auth)
+  try {
+    const supabase = await createSupabaseServerClient();
+    const { data } = await supabase.auth.getUser();
     if (data.user) return data.user.id;
+  } catch {
+    // no session — fall through to demo param
   }
   // Fallback: explicit userId param (used during dev / demo)
   return req.nextUrl.searchParams.get("userId");

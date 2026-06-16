@@ -1,14 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { generateDigest, getCachedDigest, getUserProfile, seedDigest, weekOf } from "@/lib/ai/digest";
-import { createServerClient } from "@/lib/supabase-server";
+import { createSupabaseServerClient } from "@/lib/supabase-server";
 
 async function resolveUser(req: NextRequest): Promise<string | null> {
-  const authHeader = req.headers.get("authorization");
-  if (authHeader?.startsWith("Bearer ")) {
-    const token = authHeader.slice(7);
-    const supabase = createServerClient();
-    const { data } = await supabase.auth.getUser(token);
+  try {
+    const supabase = await createSupabaseServerClient();
+    const { data } = await supabase.auth.getUser();
     if (data.user) return data.user.id;
+  } catch {
+    // no session — fall through to demo param
   }
   return req.nextUrl.searchParams.get("userId");
 }

@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lighthouse 🔦
 
-## Getting Started
+> AI Career Navigator for Singapore Students
 
-First, run the development server:
+Built for **SummerBuild 2026 Hackathon** — helping polytechnic, undergraduate and postgraduate students navigate their career path with personalized AI-powered insights.
 
-```bash
+---
+
+## What it does
+
+Lighthouse is an authenticated dashboard that aggregates four AI-powered insights in one place:
+
+- **Pulse** — Weekly personalized digest of tech industry news relevant to your skills and target roles (e.g. hiring trends at Shopee, Grab, GovTech, Sea)
+- **Job Matches** — Top job matches from MyCareersFuture, scored against your skill profile using AI embeddings
+- **Risk Scores** — AI automation risk scores for ~25 tech roles, so you can make informed decisions about your career direction
+- **Skill Gap** — Side-by-side comparison of your current skills vs. what your target role requires
+
+---
+
+## Tech stack
+
+| Layer | Tool |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript (strict) |
+| Styling | Tailwind CSS |
+| Components | shadcn/ui |
+| Data fetching | TanStack Query |
+| Forms | React Hook Form + Zod |
+| Database & Auth | Supabase |
+| LLM | Anthropic Claude API |
+| Embeddings | OpenAI text-embedding-3-small |
+| Hosting | Vercel |
+| Icons | lucide-react |
+| Dates | date-fns |
+
+---
+
+## Getting started
+
+### Prerequisites
+- Node.js 20+
+- npm
+- A Supabase project
+- Anthropic and OpenAI API keys
+
+### Setup
+
+\`\`\`bash
+# 1. Clone the repo
+git clone git@github.com:agrawalanushka/Lighthouse-.git
+cd Lighthouse-
+
+# 2. Install dependencies
+npm install
+
+# 3. Set up environment variables
+cp .env.example .env.local
+# Fill in your API keys in .env.local
+
+# 4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Required environment variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`
+ANTHROPIC_API_KEY=
+OPENAI_API_KEY=
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+\`\`\`
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Folder structure & ownership
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+\`\`\`
+/app/dashboard          → Anushka (aggregated insights hub)
+/app/pulse              → Rishi (news digest)
+/app/jobs               → Amudhan (job board)
+/app/onboarding         → Min (signup flow)
+/app/profile            → Min (user profile)
+/app/risk               → Vidush (risk scores)
+/app/skill-gap          → Vidush (skill gap analysis)
+/components/ui          → Anushka (shadcn components)
+/components/shared      → Anushka (Header, Nav, shell)
+/components/dashboard   → Anushka (insight cards)
+/lib/ai                 → Rishi (Claude + OpenAI calls)
+/lib/types.ts           → Team (changes announced in #decisions)
+\`\`\`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> Golden rule: if a file isn't in your folder, don't edit it without announcing in Discord first.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployed on **Vercel**. The \`main\` branch auto-deploys on every push.
+
+---
+
+## Team
+
+| Name | Role |
+|---|---|
+| Anushka | Team Lead + Dashboard & Insights Hub |
+| Rishi | Pulse (News + Personalization) + LLM infrastructure |
+| Amudhan | Job Board + MyCareersFuture integration |
+| Min | Onboarding + User Profile + Auth |
+| Vidush | Risk Scores + Skill Gap analysis |
+
+---
+
+*Deadline: 18 June 2026*
