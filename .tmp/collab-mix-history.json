@@ -1,0 +1,44 @@
+[
+  {
+    "periodStart": "2025-08-04",
+    "periodEnd": "2025-08-11",
+    "raw": {
+      "directive": 35.218604651162785,
+      "feedback loop": 9.227906976744187,
+      "learning": 24.148837209302325,
+      "none": 1.8976744186046512,
+      "task iteration": 24.223255813953486,
+      "validation": 5.283720930232558
+    },
+    "autoShare": 0.359,
+    "augShare": 0.641
+  },
+  {
+    "periodStart": "2025-11-13",
+    "periodEnd": "2025-11-20",
+    "raw": {
+      "directive": 28.17039654495485,
+      "feedback loop": 10.777385159010601,
+      "learning": 25.618374558303884,
+      "none": 1.7275225755791126,
+      "task iteration": 27.915194346289752,
+      "validation": 5.791126815861798
+    },
+    "autoShare": 0.2867,
+    "augShare": 0.7133
+  },
+  {
+    "periodStart": "2026-02-05",
+    "periodEnd": "2026-02-12",
+    "raw": {
+      "directive": 29.023458810692855,
+      "feedback loop": 9.729041643935261,
+      "learning": 26.532096744862706,
+      "none": 2.7641389343517,
+      "task iteration": 25.87743226041098,
+      "validation": 6.073831605746499
+    },
+    "autoShare": 0.2985,
+    "augShare": 0.7015
+  }
+]

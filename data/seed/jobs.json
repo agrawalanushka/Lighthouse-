@@ -1,0 +1,5202 @@
+[
+  {
+    "id": "job_001",
+    "title": "Junior DevOps Engineer",
+    "company": "Accenture Singapore",
+    "location": "one-north, Singapore",
+    "description": "Accenture Singapore is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Terraform",
+      "AWS",
+      "Ansible"
+    ],
+    "niceToHaveSkills": [
+      "ArgoCD",
+      "Grafana",
+      "Prometheus"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3736,
+      "max": 5736,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-accenture-singapore-job_133",
+    "source": "curated"
+  },
+  {
+    "id": "job_002",
+    "title": "Senior Cloud Engineer",
+    "company": "CSIT",
+    "location": "Mapletree Business City, Singapore",
+    "description": "CSIT is seeking a Senior Cloud Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Pulumi",
+      "FinOps",
+      "Serverless"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9236,
+      "max": 16236,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-csit-job_030",
+    "source": "curated"
+  },
+  {
+    "id": "job_003",
+    "title": "Software Engineer (Intern)",
+    "company": "Razer",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join Razer as a Software Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "C++",
+      "Linux",
+      "CMake"
+    ],
+    "niceToHaveSkills": [
+      "GraphQL",
+      "gRPC",
+      "Kafka"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1150,
+      "max": 2350,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-razer-job_017",
+    "source": "curated"
+  },
+  {
+    "id": "job_004",
+    "title": "Senior Cloud Engineer",
+    "company": "PropertyGuru",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "PropertyGuru is seeking a Senior Cloud Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "FinOps",
+      "Pulumi",
+      "CDK"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9050,
+      "max": 16050,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-propertyguru-job_148",
+    "source": "curated"
+  },
+  {
+    "id": "job_005",
+    "title": "Senior Product Manager (Technical)",
+    "company": "Aspire",
+    "location": "Singapore",
+    "description": "Aspire is seeking a Senior Product Manager (Technical) to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "Amplitude",
+      "OKRs"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9306,
+      "max": 16306,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-06T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-aspire-job_175",
+    "source": "curated"
+  },
+  {
+    "id": "job_006",
+    "title": "Software Engineer",
+    "company": "DBS Bank",
+    "location": "Jurong East, Singapore",
+    "description": "We are hiring a Software Engineer at DBS Bank to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Java",
+      "Spring Boot",
+      "SQL"
+    ],
+    "niceToHaveSkills": [
+      "gRPC",
+      "Redis",
+      "Kafka"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5681,
+      "max": 9181,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-dbs-bank-job_049",
+    "source": "curated"
+  },
+  {
+    "id": "job_007",
+    "title": "Senior Data Analyst",
+    "company": "ByteDance",
+    "location": "Jurong East, Singapore",
+    "description": "ByteDance is seeking a Senior Data Analyst to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "dbt",
+      "Google Analytics"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9171,
+      "max": 16171,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-bytedance-job_070",
+    "source": "curated"
+  },
+  {
+    "id": "job_008",
+    "title": "Junior Backend Engineer",
+    "company": "Carousell",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Carousell is looking for a Junior Backend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Python",
+      "Django",
+      "PostgreSQL"
+    ],
+    "niceToHaveSkills": [
+      "AWS Lambda",
+      "Elasticsearch",
+      "Docker"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3610,
+      "max": 5610,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-18T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-carousell-job_152",
+    "source": "curated"
+  },
+  {
+    "id": "job_009",
+    "title": "Senior Cloud Engineer",
+    "company": "Agoda",
+    "location": "Changi Business Park, Singapore",
+    "description": "Agoda is seeking a Senior Cloud Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "CDK",
+      "FinOps",
+      "Serverless"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9359,
+      "max": 16359,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-agoda-job_196",
+    "source": "curated"
+  },
+  {
+    "id": "job_010",
+    "title": "Junior Frontend Engineer",
+    "company": "Garena",
+    "location": "Jurong East, Singapore",
+    "description": "Garena is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "Jest",
+      "Storybook",
+      "Cypress"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3770,
+      "max": 5770,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-garena-job_022",
+    "source": "curated"
+  },
+  {
+    "id": "job_011",
+    "title": "DevOps Engineer",
+    "company": "Syfe",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a DevOps Engineer at Syfe to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Terraform",
+      "AWS",
+      "Ansible"
+    ],
+    "niceToHaveSkills": [
+      "Vault",
+      "ArgoCD",
+      "ELK Stack"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5548,
+      "max": 9048,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-syfe-job_162",
+    "source": "curated"
+  },
+  {
+    "id": "job_012",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "Goldman Sachs",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join Goldman Sachs as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "Ray",
+      "CUDA",
+      "Triton"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1108,
+      "max": 2308,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-18T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-goldman-sachs-job_089",
+    "source": "curated"
+  },
+  {
+    "id": "job_013",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Thoughtworks",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join Thoughtworks as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "Python",
+      "Amplitude",
+      "Roadmapping"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1410,
+      "max": 2610,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-18T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-thoughtworks-job_138",
+    "source": "curated"
+  },
+  {
+    "id": "job_014",
+    "title": "Junior Data Engineer",
+    "company": "OCBC",
+    "location": "Singapore",
+    "description": "OCBC is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Terraform",
+      "AWS Glue"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3642,
+      "max": 5642,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-ocbc-job_053",
+    "source": "curated"
+  },
+  {
+    "id": "job_015",
+    "title": "Junior Data Analyst",
+    "company": "GIC",
+    "location": "one-north, Singapore",
+    "description": "GIC is looking for a Junior Data Analyst to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "R",
+      "ggplot2",
+      "SQL"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "dbt",
+      "Mixpanel"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3824,
+      "max": 5824,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-16T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-gic-job_044",
+    "source": "curated"
+  },
+  {
+    "id": "job_016",
+    "title": "Senior Frontend Engineer",
+    "company": "DSO National Laboratories",
+    "location": "Changi Business Park, Singapore",
+    "description": "DSO National Laboratories is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "Cypress",
+      "WebSockets",
+      "Storybook"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9104,
+      "max": 16104,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-dso-national-laboratories-job_038",
+    "source": "curated"
+  },
+  {
+    "id": "job_017",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "Klook",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Join Klook as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "CUDA",
+      "Kubernetes",
+      "Triton"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1362,
+      "max": 2562,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-klook-job_191",
+    "source": "curated"
+  },
+  {
+    "id": "job_018",
+    "title": "Cloud Engineer",
+    "company": "StashAway",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Cloud Engineer at StashAway to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "Pulumi",
+      "FinOps"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5947,
+      "max": 9447,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-stashaway-job_165",
+    "source": "curated"
+  },
+  {
+    "id": "job_019",
+    "title": "Junior Cybersecurity Engineer",
+    "company": "Stripe",
+    "location": "one-north, Singapore",
+    "description": "Stripe is looking for a Junior Cybersecurity Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Wireshark",
+      "Splunk",
+      "Burp Suite"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3608,
+      "max": 5608,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-11T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-stripe-job_077",
+    "source": "curated"
+  },
+  {
+    "id": "job_020",
+    "title": "Junior DevOps Engineer",
+    "company": "Palantir Singapore",
+    "location": "Jurong East, Singapore",
+    "description": "Palantir Singapore is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Vault",
+      "ArgoCD",
+      "Grafana"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3652,
+      "max": 5652,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-palantir-singapore-job_101",
+    "source": "curated"
+  },
+  {
+    "id": "job_021",
+    "title": "Junior Cloud Engineer",
+    "company": "Klook",
+    "location": "one-north, Singapore",
+    "description": "Klook is looking for a Junior Cloud Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "CDK",
+      "Serverless",
+      "FinOps"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3709,
+      "max": 5709,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-klook-job_192",
+    "source": "curated"
+  },
+  {
+    "id": "job_022",
+    "title": "Junior Frontend Engineer",
+    "company": "Sea Limited",
+    "location": "one-north, Singapore",
+    "description": "Sea Limited is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "Jest",
+      "WebSockets",
+      "Storybook"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3825,
+      "max": 5825,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-sea-limited-job_008",
+    "source": "curated"
+  },
+  {
+    "id": "job_023",
+    "title": "Backend Engineer (Intern)",
+    "company": "Singtel",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join Singtel as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Go",
+      "gRPC",
+      "Redis"
+    ],
+    "niceToHaveSkills": [
+      "AWS Lambda",
+      "Docker",
+      "Kafka"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1419,
+      "max": 2619,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-singtel-job_063",
+    "source": "curated"
+  },
+  {
+    "id": "job_024",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "Thoughtworks",
+    "location": "one-north, Singapore",
+    "description": "Join Thoughtworks as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "Wireshark",
+      "Burp Suite",
+      "OSCP"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1465,
+      "max": 2665,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-thoughtworks-job_140",
+    "source": "curated"
+  },
+  {
+    "id": "job_025",
+    "title": "DevOps Engineer",
+    "company": "Palantir Singapore",
+    "location": "Singapore",
+    "description": "We are hiring a DevOps Engineer at Palantir Singapore to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "ArgoCD",
+      "Prometheus",
+      "ELK Stack"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5991,
+      "max": 9491,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-palantir-singapore-job_102",
+    "source": "curated"
+  },
+  {
+    "id": "job_026",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Aspire",
+    "location": "Jurong East, Singapore",
+    "description": "Join Aspire as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "SQL",
+      "Product Thinking",
+      "Agile"
+    ],
+    "niceToHaveSkills": [
+      "Python",
+      "OKRs",
+      "Roadmapping"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1217,
+      "max": 2417,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-09T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-aspire-job_173",
+    "source": "curated"
+  },
+  {
+    "id": "job_027",
+    "title": "Senior Frontend Engineer",
+    "company": "Carousell",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Carousell is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "Storybook",
+      "Figma",
+      "Jest"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9402,
+      "max": 16402,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-19T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-carousell-job_151",
+    "source": "curated"
+  },
+  {
+    "id": "job_028",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "PropertyGuru",
+    "location": "Changi Business Park, Singapore",
+    "description": "Join PropertyGuru as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Zero Trust",
+      "Splunk"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1232,
+      "max": 2432,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-propertyguru-job_147",
+    "source": "curated"
+  },
+  {
+    "id": "job_029",
+    "title": "Junior Data Engineer",
+    "company": "ST Engineering",
+    "location": "Pasir Panjang, Singapore",
+    "description": "ST Engineering is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "dbt",
+      "Airflow",
+      "BigQuery"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "Snowflake",
+      "Looker"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3708,
+      "max": 5708,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-04T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-st-engineering-job_118",
+    "source": "curated"
+  },
+  {
+    "id": "job_030",
+    "title": "Backend Engineer (Intern)",
+    "company": "Citi Singapore",
+    "location": "Singapore",
+    "description": "Join Citi Singapore as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Go",
+      "gRPC",
+      "Redis"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "Kafka",
+      "AWS Lambda"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1205,
+      "max": 2405,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-09T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-citi-singapore-job_099",
+    "source": "curated"
+  },
+  {
+    "id": "job_031",
+    "title": "Junior Machine Learning Engineer",
+    "company": "Gojek",
+    "location": "Jurong East, Singapore",
+    "description": "Gojek is looking for a Junior Machine Learning Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "CUDA",
+      "Kubernetes",
+      "Ray"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3824,
+      "max": 5824,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-gojek-job_182",
+    "source": "curated"
+  },
+  {
+    "id": "job_032",
+    "title": "Junior DevOps Engineer",
+    "company": "Visa",
+    "location": "one-north, Singapore",
+    "description": "Visa is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "niceToHaveSkills": [
+      "ArgoCD",
+      "Grafana",
+      "Prometheus"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3856,
+      "max": 5856,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-visa-job_083",
+    "source": "curated"
+  },
+  {
+    "id": "job_033",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "ByteDance",
+    "location": "Pasir Panjang, Singapore",
+    "description": "ByteDance is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Wireshark",
+      "Splunk"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9248,
+      "max": 16248,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-bytedance-job_069",
+    "source": "curated"
+  },
+  {
+    "id": "job_034",
+    "title": "Junior Cloud Engineer",
+    "company": "GovTech Singapore",
+    "location": "Singapore",
+    "description": "GovTech Singapore is looking for a Junior Cloud Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "FinOps",
+      "Multi-cloud",
+      "Pulumi"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3862,
+      "max": 5862,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-govtech-singapore-job_025",
+    "source": "curated"
+  },
+  {
+    "id": "job_035",
+    "title": "Junior Cloud Engineer",
+    "company": "Gojek",
+    "location": "one-north, Singapore",
+    "description": "Gojek is looking for a Junior Cloud Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "CDK",
+      "FinOps",
+      "Multi-cloud"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3552,
+      "max": 5552,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-31T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-gojek-job_183",
+    "source": "curated"
+  },
+  {
+    "id": "job_036",
+    "title": "Junior Data Engineer",
+    "company": "Palantir Singapore",
+    "location": "Singapore",
+    "description": "Palantir Singapore is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "dbt",
+      "Airflow",
+      "BigQuery"
+    ],
+    "niceToHaveSkills": [
+      "Snowflake",
+      "dbt",
+      "AWS Glue"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3588,
+      "max": 5588,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-palantir-singapore-job_103",
+    "source": "curated"
+  },
+  {
+    "id": "job_037",
+    "title": "Senior Cloud Engineer",
+    "company": "StarHub",
+    "location": "Mapletree Business City, Singapore",
+    "description": "StarHub is seeking a Senior Cloud Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Serverless",
+      "FinOps",
+      "Multi-cloud"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9233,
+      "max": 16233,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-01T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-starhub-job_067",
+    "source": "curated"
+  },
+  {
+    "id": "job_038",
+    "title": "Senior Product Manager (Technical)",
+    "company": "Carousell",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Carousell is seeking a Senior Product Manager (Technical) to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "Python",
+      "Roadmapping"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9227,
+      "max": 16227,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-carousell-job_149",
+    "source": "curated"
+  },
+  {
+    "id": "job_039",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "Carousell",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join Carousell as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "Ray",
+      "W&B",
+      "Kubernetes"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1203,
+      "max": 2403,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-carousell-job_150",
+    "source": "curated"
+  },
+  {
+    "id": "job_040",
+    "title": "Data Analyst",
+    "company": "foodpanda",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Data Analyst at foodpanda to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "R",
+      "ggplot2",
+      "SQL"
+    ],
+    "niceToHaveSkills": [
+      "Looker",
+      "A/B Testing",
+      "Google Analytics"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5537,
+      "max": 9037,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-foodpanda-job_187",
+    "source": "curated"
+  },
+  {
+    "id": "job_041",
+    "title": "Data Analyst",
+    "company": "Agoda",
+    "location": "Changi Business Park, Singapore",
+    "description": "We are hiring a Data Analyst at Agoda to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "R",
+      "ggplot2",
+      "SQL"
+    ],
+    "niceToHaveSkills": [
+      "Mixpanel",
+      "dbt",
+      "Google Analytics"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5541,
+      "max": 9041,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-agoda-job_194",
+    "source": "curated"
+  },
+  {
+    "id": "job_042",
+    "title": "Junior Data Engineer",
+    "company": "StashAway",
+    "location": "Jurong East, Singapore",
+    "description": "StashAway is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Terraform",
+      "dbt",
+      "Snowflake"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3679,
+      "max": 5679,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-16T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-stashaway-job_167",
+    "source": "curated"
+  },
+  {
+    "id": "job_043",
+    "title": "Senior Software Engineer",
+    "company": "Sea Limited",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Sea Limited is seeking a Senior Software Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "C++",
+      "Linux",
+      "CMake"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "AWS",
+      "gRPC"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9282,
+      "max": 16282,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-sea-limited-job_006",
+    "source": "curated"
+  },
+  {
+    "id": "job_044",
+    "title": "Senior Frontend Engineer",
+    "company": "Ninja Van",
+    "location": "Singapore",
+    "description": "Ninja Van is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "WebSockets",
+      "Jest",
+      "Cypress"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9481,
+      "max": 16481,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-ninja-van-job_144",
+    "source": "curated"
+  },
+  {
+    "id": "job_045",
+    "title": "Data Engineer",
+    "company": "Klook",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Data Engineer at Klook to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Terraform",
+      "dbt",
+      "Snowflake"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5730,
+      "max": 9230,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-klook-job_190",
+    "source": "curated"
+  },
+  {
+    "id": "job_046",
+    "title": "Senior Data Analyst",
+    "company": "ST Engineering",
+    "location": "Jurong East, Singapore",
+    "description": "ST Engineering is seeking a Senior Data Analyst to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "R",
+      "ggplot2",
+      "SQL"
+    ],
+    "niceToHaveSkills": [
+      "Google Analytics",
+      "Looker",
+      "Mixpanel"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9498,
+      "max": 16498,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-st-engineering-job_117",
+    "source": "curated"
+  },
+  {
+    "id": "job_047",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Aspire",
+    "location": "one-north, Singapore",
+    "description": "Aspire is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "OSCP",
+      "Zero Trust"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9220,
+      "max": 16220,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-aspire-job_174",
+    "source": "curated"
+  },
+  {
+    "id": "job_048",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Funding Societies",
+    "location": "one-north, Singapore",
+    "description": "Join Funding Societies as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "Amplitude",
+      "OKRs"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1359,
+      "max": 2559,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-funding-societies-job_169",
+    "source": "curated"
+  },
+  {
+    "id": "job_049",
+    "title": "Junior Product Manager (Technical)",
+    "company": "UOB",
+    "location": "Mapletree Business City, Singapore",
+    "description": "UOB is looking for a Junior Product Manager (Technical) to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "OKRs",
+      "Roadmapping"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3766,
+      "max": 5766,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-11T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-uob-job_057",
+    "source": "curated"
+  },
+  {
+    "id": "job_050",
+    "title": "Junior DevOps Engineer",
+    "company": "Garena",
+    "location": "one-north, Singapore",
+    "description": "Garena is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Grafana",
+      "ELK Stack",
+      "ArgoCD"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3843,
+      "max": 5843,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-29T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-garena-job_023",
+    "source": "curated"
+  },
+  {
+    "id": "job_051",
+    "title": "Senior Frontend Engineer",
+    "company": "Syfe",
+    "location": "Jurong East, Singapore",
+    "description": "Syfe is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "WebSockets",
+      "Storybook",
+      "Cypress"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9030,
+      "max": 16030,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-syfe-job_164",
+    "source": "curated"
+  },
+  {
+    "id": "job_052",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "Mastercard",
+    "location": "Changi Business Park, Singapore",
+    "description": "Join Mastercard as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "Kubernetes",
+      "CUDA"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1491,
+      "max": 2691,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-mastercard-job_085",
+    "source": "curated"
+  },
+  {
+    "id": "job_053",
+    "title": "Junior Frontend Engineer",
+    "company": "Visa",
+    "location": "Changi Business Park, Singapore",
+    "description": "Visa is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "WebSockets",
+      "Cypress",
+      "Figma"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3810,
+      "max": 5810,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-visa-job_081",
+    "source": "curated"
+  },
+  {
+    "id": "job_054",
+    "title": "Senior Data Engineer",
+    "company": "PropertyGuru",
+    "location": "Singapore",
+    "description": "PropertyGuru is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "Looker",
+      "Terraform"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9113,
+      "max": 16113,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-29T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-propertyguru-job_145",
+    "source": "curated"
+  },
+  {
+    "id": "job_055",
+    "title": "Backend Engineer (Intern)",
+    "company": "Funding Societies",
+    "location": "one-north, Singapore",
+    "description": "Join Funding Societies as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "Django",
+      "PostgreSQL"
+    ],
+    "niceToHaveSkills": [
+      "AWS Lambda",
+      "Elasticsearch",
+      "Kubernetes"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1214,
+      "max": 2414,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-11T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-funding-societies-job_171",
+    "source": "curated"
+  },
+  {
+    "id": "job_056",
+    "title": "Software Engineer (Intern)",
+    "company": "Temasek",
+    "location": "Jurong East, Singapore",
+    "description": "Join Temasek as a Software Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "Node.js"
+    ],
+    "niceToHaveSkills": [
+      "Redis",
+      "GraphQL",
+      "gRPC"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1379,
+      "max": 2579,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-temasek-job_046",
+    "source": "curated"
+  },
+  {
+    "id": "job_057",
+    "title": "Junior Cybersecurity Engineer",
+    "company": "Mastercard",
+    "location": "Jurong East, Singapore",
+    "description": "Mastercard is looking for a Junior Cybersecurity Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Wireshark",
+      "Splunk"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3913,
+      "max": 5913,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-mastercard-job_086",
+    "source": "curated"
+  },
+  {
+    "id": "job_058",
+    "title": "Senior DevOps Engineer",
+    "company": "TikTok Singapore",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "TikTok Singapore is seeking a Senior DevOps Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "ArgoCD",
+      "Grafana",
+      "Vault"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9112,
+      "max": 16112,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-tiktok-singapore-job_074",
+    "source": "curated"
+  },
+  {
+    "id": "job_059",
+    "title": "Junior Frontend Engineer",
+    "company": "Visa",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Visa is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Figma",
+      "Cypress",
+      "Storybook"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3794,
+      "max": 5794,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-visa-job_082",
+    "source": "curated"
+  },
+  {
+    "id": "job_060",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Citi Singapore",
+    "location": "Jurong East, Singapore",
+    "description": "Join Citi Singapore as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "SQL",
+      "Product Thinking",
+      "Agile"
+    ],
+    "niceToHaveSkills": [
+      "Amplitude",
+      "Python",
+      "A/B Testing"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1127,
+      "max": 2327,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-citi-singapore-job_100",
+    "source": "curated"
+  },
+  {
+    "id": "job_061",
+    "title": "Cloud Engineer (Intern)",
+    "company": "Grab",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join Grab as a Cloud Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "Pulumi",
+      "Multi-cloud",
+      "Serverless"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1047,
+      "max": 2247,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-grab-job_002",
+    "source": "curated"
+  },
+  {
+    "id": "job_062",
+    "title": "Senior Data Engineer",
+    "company": "NCS Group",
+    "location": "Mapletree Business City, Singapore",
+    "description": "NCS Group is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "AWS Glue",
+      "Snowflake"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9040,
+      "max": 16040,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-01T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-ncs-group-job_132",
+    "source": "curated"
+  },
+  {
+    "id": "job_063",
+    "title": "Senior Frontend Engineer",
+    "company": "ByteDance",
+    "location": "Mapletree Business City, Singapore",
+    "description": "ByteDance is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "WebSockets",
+      "Jest",
+      "Storybook"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9031,
+      "max": 16031,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-bytedance-job_072",
+    "source": "curated"
+  },
+  {
+    "id": "job_064",
+    "title": "Junior Data Analyst",
+    "company": "Singtel",
+    "location": "Jurong East, Singapore",
+    "description": "Singtel is looking for a Junior Data Analyst to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Looker",
+      "Google Analytics"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3625,
+      "max": 5625,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-10T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-singtel-job_064",
+    "source": "curated"
+  },
+  {
+    "id": "job_065",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "TikTok Singapore",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Join TikTok Singapore as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Wireshark",
+      "Splunk",
+      "Zero Trust"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1084,
+      "max": 2284,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-tiktok-singapore-job_075",
+    "source": "curated"
+  },
+  {
+    "id": "job_066",
+    "title": "Backend Engineer",
+    "company": "Shopee",
+    "location": "Changi Business Park, Singapore",
+    "description": "We are hiring a Backend Engineer at Shopee to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Go",
+      "gRPC",
+      "Redis"
+    ],
+    "niceToHaveSkills": [
+      "Elasticsearch",
+      "Docker",
+      "Kubernetes"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5979,
+      "max": 9479,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-shopee-job_009",
+    "source": "curated"
+  },
+  {
+    "id": "job_067",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "UOB",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Join UOB as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "Ray",
+      "W&B",
+      "Triton"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1209,
+      "max": 2409,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-uob-job_059",
+    "source": "curated"
+  },
+  {
+    "id": "job_068",
+    "title": "Junior Software Engineer",
+    "company": "Workday",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Workday is looking for a Junior Software Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Go",
+      "Docker",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "CI/CD",
+      "AWS",
+      "GraphQL"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3592,
+      "max": 5592,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-workday-job_111",
+    "source": "curated"
+  },
+  {
+    "id": "job_069",
+    "title": "Frontend Engineer",
+    "company": "SingHealth",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Frontend Engineer at SingHealth to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "Cypress",
+      "Jest",
+      "Storybook"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5820,
+      "max": 9320,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-singhealth-job_128",
+    "source": "curated"
+  },
+  {
+    "id": "job_070",
+    "title": "Data Analyst (Intern)",
+    "company": "Workday",
+    "location": "Jurong East, Singapore",
+    "description": "Join Workday as a Data Analyst intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Looker",
+      "A/B Testing"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1420,
+      "max": 2620,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-workday-job_110",
+    "source": "curated"
+  },
+  {
+    "id": "job_071",
+    "title": "DevOps Engineer (Intern)",
+    "company": "Lazada",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join Lazada as a DevOps Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Terraform",
+      "AWS",
+      "Ansible"
+    ],
+    "niceToHaveSkills": [
+      "Vault",
+      "ArgoCD",
+      "ELK Stack"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1128,
+      "max": 2328,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-lazada-job_016",
+    "source": "curated"
+  },
+  {
+    "id": "job_072",
+    "title": "Junior Machine Learning Engineer",
+    "company": "DSO National Laboratories",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "DSO National Laboratories is looking for a Junior Machine Learning Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "CUDA",
+      "Ray"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3830,
+      "max": 5830,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-dso-national-laboratories-job_039",
+    "source": "curated"
+  },
+  {
+    "id": "job_073",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Endowus",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join Endowus as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "Roadmapping",
+      "Amplitude",
+      "Python"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1022,
+      "max": 2222,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-24T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-endowus-job_157",
+    "source": "curated"
+  },
+  {
+    "id": "job_074",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "SingHealth",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Join SingHealth as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "Triton",
+      "W&B"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1369,
+      "max": 2569,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-31T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-singhealth-job_126",
+    "source": "curated"
+  },
+  {
+    "id": "job_075",
+    "title": "Senior Backend Engineer",
+    "company": "Lazada",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Lazada is seeking a Senior Backend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "Django",
+      "PostgreSQL"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "AWS Lambda",
+      "Kubernetes"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9321,
+      "max": 16321,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-lazada-job_015",
+    "source": "curated"
+  },
+  {
+    "id": "job_076",
+    "title": "Junior Data Engineer",
+    "company": "Gojek",
+    "location": "Changi Business Park, Singapore",
+    "description": "Gojek is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Snowflake",
+      "Terraform"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3987,
+      "max": 5987,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-gojek-job_184",
+    "source": "curated"
+  },
+  {
+    "id": "job_077",
+    "title": "Cybersecurity Engineer",
+    "company": "StarHub",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Cybersecurity Engineer at StarHub to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Zero Trust",
+      "Splunk",
+      "Wireshark"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5728,
+      "max": 9228,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-starhub-job_068",
+    "source": "curated"
+  },
+  {
+    "id": "job_078",
+    "title": "Senior Machine Learning Engineer",
+    "company": "Stripe",
+    "location": "Changi Business Park, Singapore",
+    "description": "Stripe is seeking a Senior Machine Learning Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "Ray",
+      "Kubernetes"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9240,
+      "max": 16240,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-08T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-stripe-job_078",
+    "source": "curated"
+  },
+  {
+    "id": "job_079",
+    "title": "Junior Frontend Engineer",
+    "company": "ByteDance",
+    "location": "Pasir Panjang, Singapore",
+    "description": "ByteDance is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "Storybook",
+      "Jest",
+      "WebSockets"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3578,
+      "max": 5578,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-bytedance-job_071",
+    "source": "curated"
+  },
+  {
+    "id": "job_080",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Circles.Life",
+    "location": "Jurong East, Singapore",
+    "description": "Circles.Life is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Splunk",
+      "Wireshark"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9360,
+      "max": 16360,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-26T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-circleslife-job_177",
+    "source": "curated"
+  },
+  {
+    "id": "job_081",
+    "title": "Junior DevOps Engineer",
+    "company": "GovTech Singapore",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "GovTech Singapore is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "niceToHaveSkills": [
+      "Prometheus",
+      "Vault",
+      "Grafana"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3716,
+      "max": 5716,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-14T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-govtech-singapore-job_028",
+    "source": "curated"
+  },
+  {
+    "id": "job_082",
+    "title": "Junior Software Engineer",
+    "company": "DSTA",
+    "location": "Mapletree Business City, Singapore",
+    "description": "DSTA is looking for a Junior Software Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Go",
+      "Docker",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "AWS",
+      "GraphQL"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3974,
+      "max": 5974,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-dsta-job_033",
+    "source": "curated"
+  },
+  {
+    "id": "job_083",
+    "title": "Cloud Engineer (Intern)",
+    "company": "Grab",
+    "location": "one-north, Singapore",
+    "description": "Join Grab as a Cloud Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "FinOps",
+      "Pulumi",
+      "Multi-cloud"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1229,
+      "max": 2429,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-grab-job_003",
+    "source": "curated"
+  },
+  {
+    "id": "job_084",
+    "title": "Backend Engineer (Intern)",
+    "company": "Palantir Singapore",
+    "location": "one-north, Singapore",
+    "description": "Join Palantir Singapore as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "AWS Lambda",
+      "Elasticsearch"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1016,
+      "max": 2216,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-26T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-palantir-singapore-job_104",
+    "source": "curated"
+  },
+  {
+    "id": "job_085",
+    "title": "Frontend Engineer (Intern)",
+    "company": "Grab",
+    "location": "Singapore",
+    "description": "Join Grab as a Frontend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "WebSockets",
+      "Storybook",
+      "Figma"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1071,
+      "max": 2271,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-grab-job_001",
+    "source": "curated"
+  },
+  {
+    "id": "job_086",
+    "title": "Cloud Engineer (Intern)",
+    "company": "Stripe",
+    "location": "Singapore",
+    "description": "Join Stripe as a Cloud Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "FinOps",
+      "Multi-cloud",
+      "CDK"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1020,
+      "max": 2220,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-stripe-job_079",
+    "source": "curated"
+  },
+  {
+    "id": "job_087",
+    "title": "Cloud Engineer",
+    "company": "Carro",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Cloud Engineer at Carro to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "Serverless",
+      "Pulumi"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5507,
+      "max": 9007,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-18T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-carro-job_154",
+    "source": "curated"
+  },
+  {
+    "id": "job_088",
+    "title": "Junior Frontend Engineer",
+    "company": "Goldman Sachs",
+    "location": "Changi Business Park, Singapore",
+    "description": "Goldman Sachs is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "Jest",
+      "Cypress",
+      "WebSockets"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3888,
+      "max": 5888,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-goldman-sachs-job_091",
+    "source": "curated"
+  },
+  {
+    "id": "job_089",
+    "title": "Cloud Engineer (Intern)",
+    "company": "Carro",
+    "location": "Jurong East, Singapore",
+    "description": "Join Carro as a Cloud Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "Pulumi",
+      "FinOps"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1398,
+      "max": 2598,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-carro-job_156",
+    "source": "curated"
+  },
+  {
+    "id": "job_090",
+    "title": "Data Analyst",
+    "company": "Goldman Sachs",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Data Analyst at Goldman Sachs to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "niceToHaveSkills": [
+      "Mixpanel",
+      "A/B Testing",
+      "Google Analytics"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5505,
+      "max": 9005,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-goldman-sachs-job_090",
+    "source": "curated"
+  },
+  {
+    "id": "job_091",
+    "title": "Data Engineer",
+    "company": "Carro",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Data Engineer at Carro to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Looker",
+      "Snowflake"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5564,
+      "max": 9064,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-carro-job_155",
+    "source": "curated"
+  },
+  {
+    "id": "job_092",
+    "title": "Senior Data Engineer",
+    "company": "DSO National Laboratories",
+    "location": "Jurong East, Singapore",
+    "description": "DSO National Laboratories is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "dbt",
+      "Looker"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9304,
+      "max": 16304,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-dso-national-laboratories-job_037",
+    "source": "curated"
+  },
+  {
+    "id": "job_093",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "foodpanda",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join foodpanda as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Wireshark",
+      "Zero Trust",
+      "OSCP"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1330,
+      "max": 2530,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-foodpanda-job_188",
+    "source": "curated"
+  },
+  {
+    "id": "job_094",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "Razer",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join Razer as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "Wireshark",
+      "Burp Suite",
+      "Zero Trust"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1467,
+      "max": 2667,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-razer-job_018",
+    "source": "curated"
+  },
+  {
+    "id": "job_095",
+    "title": "Senior Data Analyst",
+    "company": "ST Engineering",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "ST Engineering is seeking a Senior Data Analyst to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "niceToHaveSkills": [
+      "Google Analytics",
+      "dbt",
+      "Mixpanel"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9282,
+      "max": 16282,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-31T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-st-engineering-job_120",
+    "source": "curated"
+  },
+  {
+    "id": "job_096",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Syfe",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Syfe is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "OSCP",
+      "Burp Suite",
+      "Splunk"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9231,
+      "max": 16231,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-14T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-syfe-job_161",
+    "source": "curated"
+  },
+  {
+    "id": "job_097",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Visa",
+    "location": "Jurong East, Singapore",
+    "description": "Join Visa as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "SQL",
+      "Product Thinking",
+      "Agile"
+    ],
+    "niceToHaveSkills": [
+      "Python",
+      "OKRs",
+      "Roadmapping"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1189,
+      "max": 2389,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-visa-job_084",
+    "source": "curated"
+  },
+  {
+    "id": "job_098",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Goldman Sachs",
+    "location": "Changi Business Park, Singapore",
+    "description": "Goldman Sachs is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "OSCP",
+      "Zero Trust",
+      "Burp Suite"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9113,
+      "max": 16113,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-goldman-sachs-job_092",
+    "source": "curated"
+  },
+  {
+    "id": "job_099",
+    "title": "Senior Data Engineer",
+    "company": "Lazada",
+    "location": "Changi Business Park, Singapore",
+    "description": "Lazada is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "dbt",
+      "Airflow",
+      "BigQuery"
+    ],
+    "niceToHaveSkills": [
+      "Terraform",
+      "dbt",
+      "AWS Glue"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9071,
+      "max": 16071,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-lazada-job_013",
+    "source": "curated"
+  },
+  {
+    "id": "job_100",
+    "title": "Junior Data Analyst",
+    "company": "GIC",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "GIC is looking for a Junior Data Analyst to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "niceToHaveSkills": [
+      "Looker",
+      "dbt",
+      "Google Analytics"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3645,
+      "max": 5645,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-gic-job_041",
+    "source": "curated"
+  },
+  {
+    "id": "job_101",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "Workday",
+    "location": "Singapore",
+    "description": "Join Workday as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Wireshark",
+      "Splunk",
+      "Burp Suite"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1164,
+      "max": 2364,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-workday-job_112",
+    "source": "curated"
+  },
+  {
+    "id": "job_102",
+    "title": "Data Analyst (Intern)",
+    "company": "SATS",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Join SATS as a Data Analyst intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "Google Analytics",
+      "Looker"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1228,
+      "max": 2428,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-06T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-sats-job_122",
+    "source": "curated"
+  },
+  {
+    "id": "job_103",
+    "title": "Senior Data Engineer",
+    "company": "Ninja Van",
+    "location": "Jurong East, Singapore",
+    "description": "Ninja Van is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Looker",
+      "Snowflake",
+      "dbt"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9007,
+      "max": 16007,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-24T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-ninja-van-job_143",
+    "source": "curated"
+  },
+  {
+    "id": "job_104",
+    "title": "Backend Engineer (Intern)",
+    "company": "SingHealth",
+    "location": "Changi Business Park, Singapore",
+    "description": "Join SingHealth as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "niceToHaveSkills": [
+      "Docker",
+      "AWS Lambda",
+      "Kubernetes"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1354,
+      "max": 2554,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-singhealth-job_127",
+    "source": "curated"
+  },
+  {
+    "id": "job_105",
+    "title": "Cybersecurity Engineer",
+    "company": "PropertyGuru",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Cybersecurity Engineer at PropertyGuru to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "Splunk",
+      "OSCP",
+      "Zero Trust"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5523,
+      "max": 9023,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-propertyguru-job_146",
+    "source": "curated"
+  },
+  {
+    "id": "job_106",
+    "title": "Senior Frontend Engineer",
+    "company": "CSIT",
+    "location": "Singapore",
+    "description": "CSIT is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "Figma",
+      "Cypress",
+      "WebSockets"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9276,
+      "max": 16276,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-csit-job_031",
+    "source": "curated"
+  },
+  {
+    "id": "job_107",
+    "title": "Junior Product Manager (Technical)",
+    "company": "Temasek",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Temasek is looking for a Junior Product Manager (Technical) to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "Amplitude",
+      "A/B Testing",
+      "Roadmapping"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3686,
+      "max": 5686,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-temasek-job_048",
+    "source": "curated"
+  },
+  {
+    "id": "job_108",
+    "title": "Cybersecurity Engineer",
+    "company": "Accenture Singapore",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Cybersecurity Engineer at Accenture Singapore to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "OSCP",
+      "Splunk",
+      "Burp Suite"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5846,
+      "max": 9346,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-06T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-accenture-singapore-job_134",
+    "source": "curated"
+  },
+  {
+    "id": "job_109",
+    "title": "Senior Machine Learning Engineer",
+    "company": "DBS Bank",
+    "location": "Singapore",
+    "description": "DBS Bank is seeking a Senior Machine Learning Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "CUDA",
+      "Ray",
+      "Kubernetes"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9403,
+      "max": 16403,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-26T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-dbs-bank-job_051",
+    "source": "curated"
+  },
+  {
+    "id": "job_110",
+    "title": "Product Manager (Technical)",
+    "company": "Sea Limited",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Product Manager (Technical) at Sea Limited to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "SQL",
+      "Product Thinking",
+      "Agile"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "Roadmapping",
+      "Python"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5616,
+      "max": 9116,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-sea-limited-job_007",
+    "source": "curated"
+  },
+  {
+    "id": "job_111",
+    "title": "Data Analyst",
+    "company": "OCBC",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Data Analyst at OCBC to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "R",
+      "ggplot2",
+      "SQL"
+    ],
+    "niceToHaveSkills": [
+      "Mixpanel",
+      "Google Analytics",
+      "A/B Testing"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5931,
+      "max": 9431,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-06T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-ocbc-job_054",
+    "source": "curated"
+  },
+  {
+    "id": "job_112",
+    "title": "Junior Software Engineer",
+    "company": "Grab",
+    "location": "one-north, Singapore",
+    "description": "Grab is looking for a Junior Software Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Go",
+      "Docker",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "GraphQL",
+      "gRPC",
+      "Redis"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3610,
+      "max": 5610,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-grab-job_004",
+    "source": "curated"
+  },
+  {
+    "id": "job_113",
+    "title": "Senior Cloud Engineer",
+    "company": "Temasek",
+    "location": "one-north, Singapore",
+    "description": "Temasek is seeking a Senior Cloud Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "Serverless",
+      "CDK"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9216,
+      "max": 16216,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-temasek-job_045",
+    "source": "curated"
+  },
+  {
+    "id": "job_114",
+    "title": "Machine Learning Engineer",
+    "company": "SATS",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Machine Learning Engineer at SATS to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "W&B",
+      "Triton",
+      "CUDA"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5977,
+      "max": 9477,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-sats-job_123",
+    "source": "curated"
+  },
+  {
+    "id": "job_115",
+    "title": "Senior Data Analyst",
+    "company": "Salesforce",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Salesforce is seeking a Senior Data Analyst to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "A/B Testing",
+      "Google Analytics"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9301,
+      "max": 16301,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-salesforce-job_105",
+    "source": "curated"
+  },
+  {
+    "id": "job_116",
+    "title": "Software Engineer (Intern)",
+    "company": "CSIT",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join CSIT as a Software Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "REST APIs",
+      "Git"
+    ],
+    "niceToHaveSkills": [
+      "AWS",
+      "GraphQL",
+      "Kafka"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1127,
+      "max": 2327,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-csit-job_029",
+    "source": "curated"
+  },
+  {
+    "id": "job_117",
+    "title": "Cloud Engineer",
+    "company": "Endowus",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Cloud Engineer at Endowus to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "Serverless",
+      "FinOps"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5933,
+      "max": 9433,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-endowus-job_158",
+    "source": "curated"
+  },
+  {
+    "id": "job_118",
+    "title": "DevOps Engineer",
+    "company": "OCBC",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a DevOps Engineer at OCBC to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "ELK Stack",
+      "Vault",
+      "ArgoCD"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5761,
+      "max": 9261,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-ocbc-job_056",
+    "source": "curated"
+  },
+  {
+    "id": "job_119",
+    "title": "Backend Engineer (Intern)",
+    "company": "Salesforce",
+    "location": "Jurong East, Singapore",
+    "description": "Join Salesforce as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "Django",
+      "PostgreSQL"
+    ],
+    "niceToHaveSkills": [
+      "Elasticsearch",
+      "Docker",
+      "Kubernetes"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1383,
+      "max": 2583,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-18T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-salesforce-job_107",
+    "source": "curated"
+  },
+  {
+    "id": "job_120",
+    "title": "Junior Data Analyst",
+    "company": "Razer",
+    "location": "Jurong East, Singapore",
+    "description": "Razer is looking for a Junior Data Analyst to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "dbt",
+      "Mixpanel"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3988,
+      "max": 5988,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-razer-job_019",
+    "source": "curated"
+  },
+  {
+    "id": "job_121",
+    "title": "Junior DevOps Engineer",
+    "company": "StarHub",
+    "location": "Mapletree Business City, Singapore",
+    "description": "StarHub is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "niceToHaveSkills": [
+      "Prometheus",
+      "ArgoCD",
+      "Grafana"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3612,
+      "max": 5612,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-29T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-starhub-job_066",
+    "source": "curated"
+  },
+  {
+    "id": "job_122",
+    "title": "Senior Machine Learning Engineer",
+    "company": "ServiceNow",
+    "location": "Pasir Panjang, Singapore",
+    "description": "ServiceNow is seeking a Senior Machine Learning Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "Kubernetes",
+      "W&B"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9136,
+      "max": 16136,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-servicenow-job_116",
+    "source": "curated"
+  },
+  {
+    "id": "job_123",
+    "title": "Junior Machine Learning Engineer",
+    "company": "Circles.Life",
+    "location": "Singapore",
+    "description": "Circles.Life is looking for a Junior Machine Learning Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "Ray",
+      "Kubernetes"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3723,
+      "max": 5723,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-16T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-circleslife-job_180",
+    "source": "curated"
+  },
+  {
+    "id": "job_124",
+    "title": "Software Engineer (Intern)",
+    "company": "DSTA",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join DSTA as a Software Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "Node.js"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "gRPC",
+      "AWS"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1257,
+      "max": 2457,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-dsta-job_035",
+    "source": "curated"
+  },
+  {
+    "id": "job_125",
+    "title": "Junior Data Analyst",
+    "company": "Garena",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Garena is looking for a Junior Data Analyst to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Looker",
+      "Google Analytics"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3874,
+      "max": 5874,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-09T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-garena-job_021",
+    "source": "curated"
+  },
+  {
+    "id": "job_126",
+    "title": "Junior DevOps Engineer",
+    "company": "Ninja Van",
+    "location": "one-north, Singapore",
+    "description": "Ninja Van is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "niceToHaveSkills": [
+      "Grafana",
+      "ELK Stack",
+      "Vault"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3756,
+      "max": 5756,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-ninja-van-job_141",
+    "source": "curated"
+  },
+  {
+    "id": "job_127",
+    "title": "Junior Cloud Engineer",
+    "company": "Shopee",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Shopee is looking for a Junior Cloud Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "CDK",
+      "Multi-cloud",
+      "Pulumi"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3920,
+      "max": 5920,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-shopee-job_011",
+    "source": "curated"
+  },
+  {
+    "id": "job_128",
+    "title": "Backend Engineer",
+    "company": "Ninja Van",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Backend Engineer at Ninja Van to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "niceToHaveSkills": [
+      "Docker",
+      "AWS Lambda",
+      "Kafka"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5739,
+      "max": 9239,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-ninja-van-job_142",
+    "source": "curated"
+  },
+  {
+    "id": "job_129",
+    "title": "Junior Frontend Engineer",
+    "company": "CSIT",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "CSIT is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "Jest",
+      "Cypress",
+      "Storybook"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3609,
+      "max": 5609,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-csit-job_032",
+    "source": "curated"
+  },
+  {
+    "id": "job_130",
+    "title": "Junior Cybersecurity Engineer",
+    "company": "GovTech Singapore",
+    "location": "Mapletree Business City, Singapore",
+    "description": "GovTech Singapore is looking for a Junior Cybersecurity Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Splunk",
+      "OSCP"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3901,
+      "max": 5901,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-10T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-govtech-singapore-job_027",
+    "source": "curated"
+  },
+  {
+    "id": "job_131",
+    "title": "Data Analyst",
+    "company": "JPMorgan Chase",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Data Analyst at JPMorgan Chase to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "A/B Testing",
+      "Looker"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5684,
+      "max": 9184,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-29T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-jpmorgan-chase-job_096",
+    "source": "curated"
+  },
+  {
+    "id": "job_132",
+    "title": "Junior Data Engineer",
+    "company": "SATS",
+    "location": "Changi Business Park, Singapore",
+    "description": "SATS is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Terraform",
+      "dbt",
+      "AWS Glue"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3522,
+      "max": 5522,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-sats-job_124",
+    "source": "curated"
+  },
+  {
+    "id": "job_133",
+    "title": "Cloud Engineer",
+    "company": "Lazada",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Cloud Engineer at Lazada to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "Serverless",
+      "Pulumi",
+      "CDK"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5704,
+      "max": 9204,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-lazada-job_014",
+    "source": "curated"
+  },
+  {
+    "id": "job_134",
+    "title": "Senior Frontend Engineer",
+    "company": "StarHub",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "StarHub is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Cypress",
+      "Storybook",
+      "WebSockets"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9356,
+      "max": 16356,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-16T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-starhub-job_065",
+    "source": "curated"
+  },
+  {
+    "id": "job_135",
+    "title": "Senior Machine Learning Engineer",
+    "company": "Circles.Life",
+    "location": "Singapore",
+    "description": "Circles.Life is seeking a Senior Machine Learning Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "Hugging Face",
+      "LLMs"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "W&B",
+      "CUDA"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9058,
+      "max": 16058,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-circleslife-job_179",
+    "source": "curated"
+  },
+  {
+    "id": "job_136",
+    "title": "DevOps Engineer (Intern)",
+    "company": "DBS Bank",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join DBS Bank as a DevOps Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Terraform",
+      "AWS",
+      "Ansible"
+    ],
+    "niceToHaveSkills": [
+      "Grafana",
+      "ArgoCD",
+      "Vault"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1179,
+      "max": 2379,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-dbs-bank-job_052",
+    "source": "curated"
+  },
+  {
+    "id": "job_137",
+    "title": "Machine Learning Engineer",
+    "company": "Syfe",
+    "location": "Singapore",
+    "description": "We are hiring a Machine Learning Engineer at Syfe to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "CUDA",
+      "Triton",
+      "Kubernetes"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5546,
+      "max": 9046,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-syfe-job_163",
+    "source": "curated"
+  },
+  {
+    "id": "job_138",
+    "title": "Senior Data Analyst",
+    "company": "Salesforce",
+    "location": "Jurong East, Singapore",
+    "description": "Salesforce is seeking a Senior Data Analyst to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "Google Analytics",
+      "A/B Testing",
+      "Mixpanel"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9206,
+      "max": 16206,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-salesforce-job_108",
+    "source": "curated"
+  },
+  {
+    "id": "job_139",
+    "title": "Senior Data Analyst",
+    "company": "Accenture Singapore",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Accenture Singapore is seeking a Senior Data Analyst to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Google Analytics",
+      "Mixpanel"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9054,
+      "max": 16054,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-accenture-singapore-job_136",
+    "source": "curated"
+  },
+  {
+    "id": "job_140",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "NCS Group",
+    "location": "one-north, Singapore",
+    "description": "Join NCS Group as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "OSCP",
+      "Burp Suite",
+      "Wireshark"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1350,
+      "max": 2550,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-ncs-group-job_129",
+    "source": "curated"
+  },
+  {
+    "id": "job_141",
+    "title": "Cybersecurity Engineer (Intern)",
+    "company": "Citi Singapore",
+    "location": "one-north, Singapore",
+    "description": "Join Citi Singapore as a Cybersecurity Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Zero Trust",
+      "Wireshark",
+      "Burp Suite"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1245,
+      "max": 2445,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-citi-singapore-job_098",
+    "source": "curated"
+  },
+  {
+    "id": "job_142",
+    "title": "Product Manager (Technical) (Intern)",
+    "company": "Agoda",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "Join Agoda as a Product Manager (Technical) intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "A/B Testing",
+      "Python",
+      "Roadmapping"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1285,
+      "max": 2485,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-agoda-job_193",
+    "source": "curated"
+  },
+  {
+    "id": "job_143",
+    "title": "Senior Frontend Engineer",
+    "company": "ST Engineering",
+    "location": "Changi Business Park, Singapore",
+    "description": "ST Engineering is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "niceToHaveSkills": [
+      "Storybook",
+      "Jest",
+      "WebSockets"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9149,
+      "max": 16149,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-08T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-st-engineering-job_119",
+    "source": "curated"
+  },
+  {
+    "id": "job_144",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "StashAway",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join StashAway as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "W&B",
+      "CUDA",
+      "Triton"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1432,
+      "max": 2632,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-stashaway-job_168",
+    "source": "curated"
+  },
+  {
+    "id": "job_145",
+    "title": "Data Engineer",
+    "company": "JPMorgan Chase",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Data Engineer at JPMorgan Chase to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "dbt",
+      "Snowflake"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5610,
+      "max": 9110,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-jpmorgan-chase-job_095",
+    "source": "curated"
+  },
+  {
+    "id": "job_146",
+    "title": "Senior Data Engineer",
+    "company": "Gojek",
+    "location": "Changi Business Park, Singapore",
+    "description": "Gojek is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Terraform",
+      "Snowflake",
+      "dbt"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9445,
+      "max": 16445,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-21T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-gojek-job_181",
+    "source": "curated"
+  },
+  {
+    "id": "job_147",
+    "title": "Junior Data Engineer",
+    "company": "SATS",
+    "location": "Jurong East, Singapore",
+    "description": "SATS is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "Looker",
+      "Terraform",
+      "dbt"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3978,
+      "max": 5978,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-sats-job_121",
+    "source": "curated"
+  },
+  {
+    "id": "job_148",
+    "title": "Product Manager (Technical)",
+    "company": "foodpanda",
+    "location": "Changi Business Park, Singapore",
+    "description": "We are hiring a Product Manager (Technical) at foodpanda to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "Amplitude",
+      "OKRs",
+      "A/B Testing"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5740,
+      "max": 9240,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-foodpanda-job_186",
+    "source": "curated"
+  },
+  {
+    "id": "job_149",
+    "title": "Product Manager (Technical)",
+    "company": "Singtel",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Product Manager (Technical) at Singtel to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "OKRs",
+      "Roadmapping",
+      "Python"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5609,
+      "max": 9109,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-08T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-singtel-job_062",
+    "source": "curated"
+  },
+  {
+    "id": "job_150",
+    "title": "Product Manager (Technical)",
+    "company": "Thoughtworks",
+    "location": "Singapore",
+    "description": "We are hiring a Product Manager (Technical) at Thoughtworks to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "Python",
+      "A/B Testing",
+      "Roadmapping"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5702,
+      "max": 9202,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-thoughtworks-job_137",
+    "source": "curated"
+  },
+  {
+    "id": "job_151",
+    "title": "Junior Data Analyst",
+    "company": "UOB",
+    "location": "Pasir Panjang, Singapore",
+    "description": "UOB is looking for a Junior Data Analyst to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "niceToHaveSkills": [
+      "Google Analytics",
+      "Mixpanel",
+      "A/B Testing"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3883,
+      "max": 5883,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-analyst-uob-job_060",
+    "source": "curated"
+  },
+  {
+    "id": "job_152",
+    "title": "DevOps Engineer (Intern)",
+    "company": "ServiceNow",
+    "location": "Jurong East, Singapore",
+    "description": "Join ServiceNow as a DevOps Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "ArgoCD",
+      "Vault",
+      "Grafana"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1027,
+      "max": 2227,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-servicenow-job_115",
+    "source": "curated"
+  },
+  {
+    "id": "job_153",
+    "title": "Senior DevOps Engineer",
+    "company": "TikTok Singapore",
+    "location": "one-north, Singapore",
+    "description": "TikTok Singapore is seeking a Senior DevOps Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Helm",
+      "GitOps",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Prometheus",
+      "Vault",
+      "Grafana"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9003,
+      "max": 16003,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-18T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-tiktok-singapore-job_073",
+    "source": "curated"
+  },
+  {
+    "id": "job_154",
+    "title": "Cloud Engineer (Intern)",
+    "company": "ServiceNow",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join ServiceNow as a Cloud Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "CDK",
+      "FinOps"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1165,
+      "max": 2365,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-servicenow-job_114",
+    "source": "curated"
+  },
+  {
+    "id": "job_155",
+    "title": "Product Manager (Technical)",
+    "company": "Singtel",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Product Manager (Technical) at Singtel to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "JIRA",
+      "Figma",
+      "User Research"
+    ],
+    "niceToHaveSkills": [
+      "Roadmapping",
+      "A/B Testing",
+      "Amplitude"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5646,
+      "max": 9146,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/product-manager-(technical)-singtel-job_061",
+    "source": "curated"
+  },
+  {
+    "id": "job_156",
+    "title": "DevOps Engineer",
+    "company": "JPMorgan Chase",
+    "location": "Singapore",
+    "description": "We are hiring a DevOps Engineer at JPMorgan Chase to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Terraform",
+      "AWS",
+      "Ansible"
+    ],
+    "niceToHaveSkills": [
+      "Vault",
+      "ELK Stack",
+      "Grafana"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5628,
+      "max": 9128,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-26T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-jpmorgan-chase-job_094",
+    "source": "curated"
+  },
+  {
+    "id": "job_157",
+    "title": "Senior Data Engineer",
+    "company": "Salesforce",
+    "location": "one-north, Singapore",
+    "description": "Salesforce is seeking a Senior Data Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "dbt",
+      "Looker"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9076,
+      "max": 16076,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-12T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-salesforce-job_106",
+    "source": "curated"
+  },
+  {
+    "id": "job_158",
+    "title": "Senior Machine Learning Engineer",
+    "company": "Shopee",
+    "location": "one-north, Singapore",
+    "description": "Shopee is seeking a Senior Machine Learning Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "TensorFlow",
+      "Python",
+      "MLflow"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "CUDA",
+      "Ray"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9448,
+      "max": 16448,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-shopee-job_012",
+    "source": "curated"
+  },
+  {
+    "id": "job_159",
+    "title": "Backend Engineer",
+    "company": "ServiceNow",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Backend Engineer at ServiceNow to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "Docker",
+      "AWS Lambda"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5983,
+      "max": 9483,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-servicenow-job_113",
+    "source": "curated"
+  },
+  {
+    "id": "job_160",
+    "title": "Junior Frontend Engineer",
+    "company": "GIC",
+    "location": "one-north, Singapore",
+    "description": "GIC is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Figma",
+      "Cypress",
+      "WebSockets"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3783,
+      "max": 5783,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-31T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-gic-job_043",
+    "source": "curated"
+  },
+  {
+    "id": "job_161",
+    "title": "Junior Frontend Engineer",
+    "company": "Endowus",
+    "location": "one-north, Singapore",
+    "description": "Endowus is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Cypress",
+      "WebSockets",
+      "Storybook"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3805,
+      "max": 5805,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-endowus-job_160",
+    "source": "curated"
+  },
+  {
+    "id": "job_162",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "foodpanda",
+    "location": "Jurong East, Singapore",
+    "description": "foodpanda is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Cloud Security",
+      "IAM",
+      "AWS"
+    ],
+    "niceToHaveSkills": [
+      "Zero Trust",
+      "Splunk",
+      "Wireshark"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9473,
+      "max": 16473,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-14T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-foodpanda-job_185",
+    "source": "curated"
+  },
+  {
+    "id": "job_163",
+    "title": "Cloud Engineer",
+    "company": "GIC",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Cloud Engineer at GIC to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Azure",
+      "ARM Templates",
+      "PowerShell"
+    ],
+    "niceToHaveSkills": [
+      "Serverless",
+      "Multi-cloud",
+      "CDK"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5918,
+      "max": 9418,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-05T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-gic-job_042",
+    "source": "curated"
+  },
+  {
+    "id": "job_164",
+    "title": "Cloud Engineer",
+    "company": "Circles.Life",
+    "location": "Singapore",
+    "description": "We are hiring a Cloud Engineer at Circles.Life to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Pulumi",
+      "Multi-cloud",
+      "FinOps"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5509,
+      "max": 9009,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-11T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-circleslife-job_178",
+    "source": "curated"
+  },
+  {
+    "id": "job_165",
+    "title": "Junior Software Engineer",
+    "company": "Citi Singapore",
+    "location": "Changi Business Park, Singapore",
+    "description": "Citi Singapore is looking for a Junior Software Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "Node.js"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "gRPC",
+      "GraphQL"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3857,
+      "max": 5857,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-01T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-citi-singapore-job_097",
+    "source": "curated"
+  },
+  {
+    "id": "job_166",
+    "title": "Data Engineer",
+    "company": "Carro",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Data Engineer at Carro to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "Snowflake",
+      "dbt"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5939,
+      "max": 9439,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-31T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-carro-job_153",
+    "source": "curated"
+  },
+  {
+    "id": "job_167",
+    "title": "Cybersecurity Engineer",
+    "company": "DSTA",
+    "location": "Pasir Panjang, Singapore",
+    "description": "We are hiring a Cybersecurity Engineer at DSTA to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Zero Trust",
+      "Splunk",
+      "OSCP"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5597,
+      "max": 9097,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-22T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-dsta-job_034",
+    "source": "curated"
+  },
+  {
+    "id": "job_168",
+    "title": "Senior Frontend Engineer",
+    "company": "Endowus",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Endowus is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "Jest",
+      "Figma",
+      "Cypress"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9164,
+      "max": 16164,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-endowus-job_159",
+    "source": "curated"
+  },
+  {
+    "id": "job_169",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Mastercard",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Mastercard is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Zero Trust",
+      "Wireshark",
+      "Burp Suite"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9436,
+      "max": 16436,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-25T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-mastercard-job_087",
+    "source": "curated"
+  },
+  {
+    "id": "job_170",
+    "title": "Machine Learning Engineer",
+    "company": "Funding Societies",
+    "location": "Singapore",
+    "description": "We are hiring a Machine Learning Engineer at Funding Societies to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "niceToHaveSkills": [
+      "CUDA",
+      "W&B",
+      "Ray"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5836,
+      "max": 9336,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-funding-societies-job_170",
+    "source": "curated"
+  },
+  {
+    "id": "job_171",
+    "title": "Junior Frontend Engineer",
+    "company": "Shopee",
+    "location": "Changi Business Park, Singapore",
+    "description": "Shopee is looking for a Junior Frontend Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Next.js",
+      "React",
+      "REST APIs"
+    ],
+    "niceToHaveSkills": [
+      "Storybook",
+      "Cypress",
+      "Jest"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3694,
+      "max": 5694,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-shopee-job_010",
+    "source": "curated"
+  },
+  {
+    "id": "job_172",
+    "title": "Backend Engineer",
+    "company": "Agoda",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Backend Engineer at Agoda to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Go",
+      "gRPC",
+      "Redis"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "Elasticsearch",
+      "Docker"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5862,
+      "max": 9362,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-04T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-agoda-job_195",
+    "source": "curated"
+  },
+  {
+    "id": "job_173",
+    "title": "Data Engineer",
+    "company": "Thoughtworks",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Data Engineer at Thoughtworks to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Snowflake",
+      "Looker"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5830,
+      "max": 9330,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-thoughtworks-job_139",
+    "source": "curated"
+  },
+  {
+    "id": "job_174",
+    "title": "Data Engineer (Intern)",
+    "company": "NCS Group",
+    "location": "one-north, Singapore",
+    "description": "Join NCS Group as a Data Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "dbt",
+      "Airflow",
+      "BigQuery"
+    ],
+    "niceToHaveSkills": [
+      "Snowflake",
+      "AWS Glue",
+      "dbt"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1085,
+      "max": 2285,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-26T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-ncs-group-job_130",
+    "source": "curated"
+  },
+  {
+    "id": "job_175",
+    "title": "Data Engineer (Intern)",
+    "company": "GovTech Singapore",
+    "location": "Changi Business Park, Singapore",
+    "description": "Join GovTech Singapore as a Data Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "Looker",
+      "Snowflake",
+      "AWS Glue"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1121,
+      "max": 2321,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-23T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-govtech-singapore-job_026",
+    "source": "curated"
+  },
+  {
+    "id": "job_176",
+    "title": "Backend Engineer (Intern)",
+    "company": "TikTok Singapore",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join TikTok Singapore as a Backend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "niceToHaveSkills": [
+      "AWS Lambda",
+      "Kafka",
+      "Kubernetes"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1329,
+      "max": 2529,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-tiktok-singapore-job_076",
+    "source": "curated"
+  },
+  {
+    "id": "job_177",
+    "title": "Software Engineer",
+    "company": "Razer",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Software Engineer at Razer to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Go",
+      "Docker",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "gRPC",
+      "GraphQL"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5949,
+      "max": 9449,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-razer-job_020",
+    "source": "curated"
+  },
+  {
+    "id": "job_178",
+    "title": "Machine Learning Engineer (Intern)",
+    "company": "DSO National Laboratories",
+    "location": "Jurong East, Singapore",
+    "description": "Join DSO National Laboratories as a Machine Learning Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "niceToHaveSkills": [
+      "Triton",
+      "Kubernetes",
+      "W&B"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1275,
+      "max": 2475,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-27T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/machine-learning-engineer-dso-national-laboratories-job_040",
+    "source": "curated"
+  },
+  {
+    "id": "job_179",
+    "title": "Junior Cloud Engineer",
+    "company": "DSTA",
+    "location": "Singapore",
+    "description": "DSTA is looking for a Junior Cloud Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Linux"
+    ],
+    "niceToHaveSkills": [
+      "Serverless",
+      "Multi-cloud",
+      "Pulumi"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3535,
+      "max": 5535,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-dsta-job_036",
+    "source": "curated"
+  },
+  {
+    "id": "job_180",
+    "title": "Junior Cloud Engineer",
+    "company": "UOB",
+    "location": "Jurong East, Singapore",
+    "description": "UOB is looking for a Junior Cloud Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Pulumi",
+      "Multi-cloud",
+      "CDK"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3971,
+      "max": 5971,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-19T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-uob-job_058",
+    "source": "curated"
+  },
+  {
+    "id": "job_181",
+    "title": "Junior DevOps Engineer",
+    "company": "DBS Bank",
+    "location": "Changi Business Park, Singapore",
+    "description": "DBS Bank is looking for a Junior DevOps Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "niceToHaveSkills": [
+      "Grafana",
+      "ArgoCD",
+      "Vault"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3512,
+      "max": 5512,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-29T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-dbs-bank-job_050",
+    "source": "curated"
+  },
+  {
+    "id": "job_182",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "SingHealth",
+    "location": "Jurong East, Singapore",
+    "description": "SingHealth is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Splunk",
+      "OSCP"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9064,
+      "max": 16064,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-08T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-singhealth-job_125",
+    "source": "curated"
+  },
+  {
+    "id": "job_183",
+    "title": "Frontend Engineer",
+    "company": "Mastercard",
+    "location": "Tanjong Pagar, Singapore",
+    "description": "We are hiring a Frontend Engineer at Mastercard to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Storybook",
+      "Jest",
+      "WebSockets"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5812,
+      "max": 9312,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-28T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-mastercard-job_088",
+    "source": "curated"
+  },
+  {
+    "id": "job_184",
+    "title": "Software Engineer (Intern)",
+    "company": "OCBC",
+    "location": "Jurong East, Singapore",
+    "description": "Join OCBC as a Software Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "Node.js"
+    ],
+    "niceToHaveSkills": [
+      "Redis",
+      "CI/CD",
+      "GraphQL"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1019,
+      "max": 2219,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-03T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-ocbc-job_055",
+    "source": "curated"
+  },
+  {
+    "id": "job_185",
+    "title": "DevOps Engineer (Intern)",
+    "company": "Temasek",
+    "location": "one-north, Singapore",
+    "description": "Join Temasek as a DevOps Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "niceToHaveSkills": [
+      "Prometheus",
+      "Grafana",
+      "ELK Stack"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1018,
+      "max": 2218,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-temasek-job_047",
+    "source": "curated"
+  },
+  {
+    "id": "job_186",
+    "title": "Junior Data Engineer",
+    "company": "Stripe",
+    "location": "Changi Business Park, Singapore",
+    "description": "Stripe is looking for a Junior Data Engineer to join our growing engineering team. You will own features end-to-end and collaborate closely with senior engineers.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "dbt",
+      "Snowflake"
+    ],
+    "experienceLevel": "junior",
+    "salaryRange": {
+      "min": 3564,
+      "max": 5564,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-10T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-stripe-job_080",
+    "source": "curated"
+  },
+  {
+    "id": "job_187",
+    "title": "Senior Frontend Engineer",
+    "company": "Klook",
+    "location": "Jurong East, Singapore",
+    "description": "Klook is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Cypress",
+      "Figma",
+      "Storybook"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9465,
+      "max": 16465,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-19T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-klook-job_189",
+    "source": "curated"
+  },
+  {
+    "id": "job_188",
+    "title": "Frontend Engineer (Intern)",
+    "company": "Sea Limited",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Join Sea Limited as a Frontend Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Figma",
+      "WebSockets",
+      "Storybook"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1309,
+      "max": 2509,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-24T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-sea-limited-job_005",
+    "source": "curated"
+  },
+  {
+    "id": "job_189",
+    "title": "Data Engineer",
+    "company": "JPMorgan Chase",
+    "location": "one-north, Singapore",
+    "description": "We are hiring a Data Engineer at JPMorgan Chase to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Kafka",
+      "Flink",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "AWS Glue",
+      "Looker",
+      "dbt"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5783,
+      "max": 9283,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-07T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-jpmorgan-chase-job_093",
+    "source": "curated"
+  },
+  {
+    "id": "job_190",
+    "title": "Software Engineer (Intern)",
+    "company": "NCS Group",
+    "location": "Pasir Panjang, Singapore",
+    "description": "Join NCS Group as a Software Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "Node.js"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "GraphQL",
+      "CI/CD"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1191,
+      "max": 2391,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-ncs-group-job_131",
+    "source": "curated"
+  },
+  {
+    "id": "job_191",
+    "title": "Senior Cloud Engineer",
+    "company": "Workday",
+    "location": "Jurong East, Singapore",
+    "description": "Workday is seeking a Senior Cloud Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "Serverless",
+      "FinOps"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9376,
+      "max": 16376,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-20T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-workday-job_109",
+    "source": "curated"
+  },
+  {
+    "id": "job_192",
+    "title": "Backend Engineer",
+    "company": "Funding Societies",
+    "location": "Mapletree Business City, Singapore",
+    "description": "We are hiring a Backend Engineer at Funding Societies to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Go",
+      "gRPC",
+      "Redis"
+    ],
+    "niceToHaveSkills": [
+      "Docker",
+      "Kafka",
+      "Kubernetes"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5579,
+      "max": 9079,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-30T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/backend-engineer-funding-societies-job_172",
+    "source": "curated"
+  },
+  {
+    "id": "job_193",
+    "title": "DevOps Engineer (Intern)",
+    "company": "StashAway",
+    "location": "Jurong East, Singapore",
+    "description": "Join StashAway as a DevOps Engineer intern. You will work alongside experienced engineers on real production systems. Great way to kickstart your career in Singapore's tech scene.",
+    "requiredSkills": [
+      "Terraform",
+      "AWS",
+      "Ansible"
+    ],
+    "niceToHaveSkills": [
+      "ArgoCD",
+      "ELK Stack",
+      "Grafana"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1053,
+      "max": 2253,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-04T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/devops-engineer-stashaway-job_166",
+    "source": "curated"
+  },
+  {
+    "id": "job_194",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Garena",
+    "location": "Jurong East, Singapore",
+    "description": "Garena is seeking a Senior Cybersecurity Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Penetration Testing",
+      "Linux",
+      "Python"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Zero Trust",
+      "OSCP"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9173,
+      "max": 16173,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-08T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-garena-job_024",
+    "source": "curated"
+  },
+  {
+    "id": "job_195",
+    "title": "Senior Frontend Engineer",
+    "company": "Accenture Singapore",
+    "location": "Changi Business Park, Singapore",
+    "description": "Accenture Singapore is seeking a Senior Frontend Engineer to lead complex projects and shape engineering culture. You will work on high-scale systems serving millions of users across Southeast Asia.",
+    "requiredSkills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "niceToHaveSkills": [
+      "Cypress",
+      "WebSockets",
+      "Jest"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9492,
+      "max": 16492,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-13T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/frontend-engineer-accenture-singapore-job_135",
+    "source": "curated"
+  },
+  {
+    "id": "job_196",
+    "title": "Data Engineer",
+    "company": "Aspire",
+    "location": "Singapore",
+    "description": "We are hiring a Data Engineer at Aspire to drive technical initiatives across our platform. You will mentor junior engineers and contribute to architectural decisions.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "dbt",
+      "Looker",
+      "AWS Glue"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5667,
+      "max": 9167,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-06-02T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-aspire-job_176",
+    "source": "curated"
+  },
+  {
+    "id": "job_197",
+    "title": "Data Engineer (Intern)",
+    "company": "Foodpanda Tech",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Foodpanda Tech is hiring a intern Data Engineer to join their Singapore engineering team.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "niceToHaveSkills": [
+      "Snowflake",
+      "Looker",
+      "dbt"
+    ],
+    "experienceLevel": "intern",
+    "salaryRange": {
+      "min": 1263,
+      "max": 2463,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/data-engineer-foodpanda-tech-job_197",
+    "source": "curated"
+  },
+  {
+    "id": "job_198",
+    "title": "Senior Cloud Engineer",
+    "company": "Ninja Van Tech",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Ninja Van Tech is hiring a senior Cloud Engineer to join their Singapore engineering team.",
+    "requiredSkills": [
+      "GCP",
+      "Python",
+      "Kubernetes"
+    ],
+    "niceToHaveSkills": [
+      "Multi-cloud",
+      "FinOps",
+      "Pulumi"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9182,
+      "max": 16182,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-04-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cloud-engineer-ninja-van-tech-job_198",
+    "source": "curated"
+  },
+  {
+    "id": "job_199",
+    "title": "Software Engineer",
+    "company": "PropertyGuru",
+    "location": "Changi Business Park, Singapore",
+    "description": "PropertyGuru is hiring a mid Software Engineer to join their Singapore engineering team.",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "Node.js"
+    ],
+    "niceToHaveSkills": [
+      "Kafka",
+      "GraphQL",
+      "AWS"
+    ],
+    "experienceLevel": "mid",
+    "salaryRange": {
+      "min": 5955,
+      "max": 9455,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-15T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/software-engineer-propertyguru-job_199",
+    "source": "curated"
+  },
+  {
+    "id": "job_200",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Carousell",
+    "location": "Mapletree Business City, Singapore",
+    "description": "Carousell is hiring a senior Cybersecurity Engineer to join their Singapore engineering team.",
+    "requiredSkills": [
+      "SIEM",
+      "Incident Response",
+      "Networking"
+    ],
+    "niceToHaveSkills": [
+      "Burp Suite",
+      "Splunk",
+      "Wireshark"
+    ],
+    "experienceLevel": "senior",
+    "salaryRange": {
+      "min": 9254,
+      "max": 16254,
+      "currency": "SGD"
+    },
+    "postedAt": "2026-05-17T00:00:00Z",
+    "url": "https://www.mycareersfuture.gov.sg/job/cybersecurity-engineer-carousell-job_200",
+    "source": "curated"
+  }
+]

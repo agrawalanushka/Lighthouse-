@@ -1,0 +1,577 @@
+[
+  {
+    "id": "bash",
+    "name": "Bash",
+    "category": "language"
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "category": "language"
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "category": "language"
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "category": "language"
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "category": "language"
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "category": "language"
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "category": "language"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "language"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "language"
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "category": "language"
+  },
+  {
+    "id": "powershell",
+    "name": "PowerShell",
+    "category": "language"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "language"
+  },
+  {
+    "id": "r",
+    "name": "R",
+    "category": "language"
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "language"
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "category": "language"
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "language"
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "category": "language"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "language"
+  },
+  {
+    "id": "apache-spark",
+    "name": "Apache Spark",
+    "category": "framework"
+  },
+  {
+    "id": "cuda",
+    "name": "CUDA",
+    "category": "framework"
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "framework"
+  },
+  {
+    "id": "express",
+    "name": "Express",
+    "category": "framework"
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "framework"
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "category": "framework"
+  },
+  {
+    "id": "flink",
+    "name": "Flink",
+    "category": "framework"
+  },
+  {
+    "id": "ggplot2",
+    "name": "ggplot2",
+    "category": "framework"
+  },
+  {
+    "id": "grpc",
+    "name": "gRPC",
+    "category": "framework"
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "category": "framework"
+  },
+  {
+    "id": "keras",
+    "name": "Keras",
+    "category": "framework"
+  },
+  {
+    "id": "next-js",
+    "name": "Next.js",
+    "category": "framework"
+  },
+  {
+    "id": "node-js",
+    "name": "Node.js",
+    "category": "framework"
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "category": "framework"
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas",
+    "category": "framework"
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "category": "framework"
+  },
+  {
+    "id": "ray",
+    "name": "Ray",
+    "category": "framework"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "framework"
+  },
+  {
+    "id": "scikit-learn",
+    "name": "scikit-learn",
+    "category": "framework"
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "category": "framework"
+  },
+  {
+    "id": "tailwind-css",
+    "name": "Tailwind CSS",
+    "category": "framework"
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "category": "framework"
+  },
+  {
+    "id": "vue-js",
+    "name": "Vue.js",
+    "category": "framework"
+  },
+  {
+    "id": "airflow",
+    "name": "Airflow",
+    "category": "tool"
+  },
+  {
+    "id": "amplitude",
+    "name": "Amplitude",
+    "category": "tool"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "category": "tool"
+  },
+  {
+    "id": "argocd",
+    "name": "ArgoCD",
+    "category": "tool"
+  },
+  {
+    "id": "arm-templates",
+    "name": "ARM Templates",
+    "category": "tool"
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "tool"
+  },
+  {
+    "id": "aws-glue",
+    "name": "AWS Glue",
+    "category": "tool"
+  },
+  {
+    "id": "aws-lambda",
+    "name": "AWS Lambda",
+    "category": "tool"
+  },
+  {
+    "id": "azure",
+    "name": "Azure",
+    "category": "tool"
+  },
+  {
+    "id": "bigquery",
+    "name": "BigQuery",
+    "category": "tool"
+  },
+  {
+    "id": "burp-suite",
+    "name": "Burp Suite",
+    "category": "tool"
+  },
+  {
+    "id": "cdk",
+    "name": "CDK",
+    "category": "tool"
+  },
+  {
+    "id": "cmake",
+    "name": "CMake",
+    "category": "tool"
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "category": "tool"
+  },
+  {
+    "id": "dbt",
+    "name": "dbt",
+    "category": "tool"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "tool"
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "tool"
+  },
+  {
+    "id": "elk-stack",
+    "name": "ELK Stack",
+    "category": "tool"
+  },
+  {
+    "id": "excel",
+    "name": "Excel",
+    "category": "tool"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "tool"
+  },
+  {
+    "id": "gcp",
+    "name": "GCP",
+    "category": "tool"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "tool"
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "category": "tool"
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics",
+    "category": "tool"
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "category": "tool"
+  },
+  {
+    "id": "helm",
+    "name": "Helm",
+    "category": "tool"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "category": "tool"
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "category": "tool"
+  },
+  {
+    "id": "jira",
+    "name": "JIRA",
+    "category": "tool"
+  },
+  {
+    "id": "kafka",
+    "name": "Kafka",
+    "category": "tool"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "tool"
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "tool"
+  },
+  {
+    "id": "looker",
+    "name": "Looker",
+    "category": "tool"
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel",
+    "category": "tool"
+  },
+  {
+    "id": "mlflow",
+    "name": "MLflow",
+    "category": "tool"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "tool"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "tool"
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "category": "tool"
+  },
+  {
+    "id": "power-bi",
+    "name": "Power BI",
+    "category": "tool"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "category": "tool"
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi",
+    "category": "tool"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "tool"
+  },
+  {
+    "id": "siem",
+    "name": "SIEM",
+    "category": "tool"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "category": "tool"
+  },
+  {
+    "id": "splunk",
+    "name": "Splunk",
+    "category": "tool"
+  },
+  {
+    "id": "storybook",
+    "name": "Storybook",
+    "category": "tool"
+  },
+  {
+    "id": "tableau",
+    "name": "Tableau",
+    "category": "tool"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "category": "tool"
+  },
+  {
+    "id": "triton",
+    "name": "Triton",
+    "category": "tool"
+  },
+  {
+    "id": "vault",
+    "name": "Vault",
+    "category": "tool"
+  },
+  {
+    "id": "wandb",
+    "name": "W&B",
+    "category": "tool"
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "category": "tool"
+  },
+  {
+    "id": "a-b-testing",
+    "name": "A/B Testing",
+    "category": "concept"
+  },
+  {
+    "id": "agile",
+    "name": "Agile",
+    "category": "concept"
+  },
+  {
+    "id": "ci-cd",
+    "name": "CI/CD",
+    "category": "concept"
+  },
+  {
+    "id": "cloud-security",
+    "name": "Cloud Security",
+    "category": "concept"
+  },
+  {
+    "id": "finops",
+    "name": "FinOps",
+    "category": "concept"
+  },
+  {
+    "id": "gitops",
+    "name": "GitOps",
+    "category": "concept"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "category": "concept"
+  },
+  {
+    "id": "iam",
+    "name": "IAM",
+    "category": "concept"
+  },
+  {
+    "id": "incident-response",
+    "name": "Incident Response",
+    "category": "concept"
+  },
+  {
+    "id": "llms",
+    "name": "LLMs",
+    "category": "concept"
+  },
+  {
+    "id": "multi-cloud",
+    "name": "Multi-cloud",
+    "category": "concept"
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "category": "concept"
+  },
+  {
+    "id": "okrs",
+    "name": "OKRs",
+    "category": "concept"
+  },
+  {
+    "id": "oscp",
+    "name": "OSCP",
+    "category": "concept"
+  },
+  {
+    "id": "penetration-testing",
+    "name": "Penetration Testing",
+    "category": "concept"
+  },
+  {
+    "id": "product-thinking",
+    "name": "Product Thinking",
+    "category": "concept"
+  },
+  {
+    "id": "rest-apis",
+    "name": "REST APIs",
+    "category": "concept"
+  },
+  {
+    "id": "roadmapping",
+    "name": "Roadmapping",
+    "category": "concept"
+  },
+  {
+    "id": "serverless",
+    "name": "Serverless",
+    "category": "concept"
+  },
+  {
+    "id": "user-research",
+    "name": "User Research",
+    "category": "concept"
+  },
+  {
+    "id": "websockets",
+    "name": "WebSockets",
+    "category": "concept"
+  },
+  {
+    "id": "zero-trust",
+    "name": "Zero Trust",
+    "category": "concept"
+  }
+]

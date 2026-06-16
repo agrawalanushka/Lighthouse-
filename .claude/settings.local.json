@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:huggingface.co)",
+      "WebFetch(domain:github.com)",
+      "PowerShell(npx tsc --noEmit)",
+      "PowerShell(Get-Content .tmp\\\\Occupation_Data_onet29.txt | Where-Object { $_ -match \"^\\(11-3021|13-1041|13-1111|15-1|15-2|17-2061|27-1024\\)\" } | ForEach-Object { \\($_ -split \"`t\"\\)[0..1] -join \"`t\" })",
+      "PowerShell(npx eslint app/risk lib/risk app/api/risk)"
+    ]
+  }
+}

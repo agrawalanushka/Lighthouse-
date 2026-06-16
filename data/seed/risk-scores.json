@@ -1,0 +1,1568 @@
+[
+  {
+    "roleId": "ml-engineer",
+    "roleName": "ML Engineer",
+    "aliases": [
+      "AI Engineer",
+      "Data Scientist",
+      "Computer Vision Engineer",
+      "NLP Engineer",
+      "Deep Learning Engineer"
+    ],
+    "score": 34.6,
+    "reasoning": "Coverage (Intervention Breadth) = 46.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2051). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: AI Engineer, Data Scientist, Computer Vision Engineer, NLP Engineer, Deep Learning Engineer. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-2051), not this specific O*NET detail occupation, so this score currently coincides with BI Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "junior",
+    "interventionBreadth": 0.461,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-2051.00",
+    "onetTaskCount": 16,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ml-engineer",
+    "roleName": "ML Engineer",
+    "aliases": [
+      "AI Engineer",
+      "Data Scientist",
+      "Computer Vision Engineer",
+      "NLP Engineer",
+      "Deep Learning Engineer"
+    ],
+    "score": 33.1,
+    "reasoning": "Coverage (Intervention Breadth) = 46.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2051). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: AI Engineer, Data Scientist, Computer Vision Engineer, NLP Engineer, Deep Learning Engineer. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-2051), not this specific O*NET detail occupation, so this score currently coincides with BI Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "mid",
+    "interventionBreadth": 0.461,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-2051.00",
+    "onetTaskCount": 16,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ml-engineer",
+    "roleName": "ML Engineer",
+    "aliases": [
+      "AI Engineer",
+      "Data Scientist",
+      "Computer Vision Engineer",
+      "NLP Engineer",
+      "Deep Learning Engineer"
+    ],
+    "score": 31.7,
+    "reasoning": "Coverage (Intervention Breadth) = 46.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2051). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: AI Engineer, Data Scientist, Computer Vision Engineer, NLP Engineer, Deep Learning Engineer. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-2051), not this specific O*NET detail occupation, so this score currently coincides with BI Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "senior",
+    "interventionBreadth": 0.461,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-2051.00",
+    "onetTaskCount": 16,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "research-engineer",
+    "roleName": "Research Engineer",
+    "aliases": [
+      "Applied Scientist"
+    ],
+    "score": 25.6,
+    "reasoning": "Coverage (Intervention Breadth) = 34.0% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1221). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"conduct logical analyses of business, scientific, engineering, and other technical problems, formulating mathematical models of problems for solution by computers.\" at 0.85% of all SG conversations). This O*NET classification (and therefore this score) also covers: Applied Scientist.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "junior",
+    "interventionBreadth": 0.34,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1221.00",
+    "onetTaskCount": 15,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "research-engineer",
+    "roleName": "Research Engineer",
+    "aliases": [
+      "Applied Scientist"
+    ],
+    "score": 24.5,
+    "reasoning": "Coverage (Intervention Breadth) = 34.0% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1221). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"conduct logical analyses of business, scientific, engineering, and other technical problems, formulating mathematical models of problems for solution by computers.\" at 0.85% of all SG conversations). This O*NET classification (and therefore this score) also covers: Applied Scientist.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "mid",
+    "interventionBreadth": 0.34,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1221.00",
+    "onetTaskCount": 15,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "research-engineer",
+    "roleName": "Research Engineer",
+    "aliases": [
+      "Applied Scientist"
+    ],
+    "score": 23.4,
+    "reasoning": "Coverage (Intervention Breadth) = 34.0% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1221). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"conduct logical analyses of business, scientific, engineering, and other technical problems, formulating mathematical models of problems for solution by computers.\" at 0.85% of all SG conversations). This O*NET classification (and therefore this score) also covers: Applied Scientist.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "senior",
+    "interventionBreadth": 0.34,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1221.00",
+    "onetTaskCount": 15,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "mlops-engineer",
+    "roleName": "MLOps Engineer",
+    "aliases": [],
+    "score": 23.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with Security Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "junior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1299.08",
+    "onetTaskCount": 28,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "mlops-engineer",
+    "roleName": "MLOps Engineer",
+    "aliases": [],
+    "score": 22.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with Security Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "mid",
+    "interventionBreadth": 0.311,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1299.08",
+    "onetTaskCount": 28,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "mlops-engineer",
+    "roleName": "MLOps Engineer",
+    "aliases": [],
+    "score": 21.4,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with Security Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Machine Learning & AI",
+    "seniority": "senior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1299.08",
+    "onetTaskCount": 28,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "frontend-engineer",
+    "roleName": "Frontend Engineer",
+    "aliases": [
+      "Web Developer"
+    ],
+    "score": 36.1,
+    "reasoning": "Coverage (Intervention Breadth) = 48.0% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1254). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.\" at 0.84% of all SG conversations). This O*NET classification (and therefore this score) also covers: Web Developer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "junior",
+    "interventionBreadth": 0.48,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1254.00",
+    "onetTaskCount": 29,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "frontend-engineer",
+    "roleName": "Frontend Engineer",
+    "aliases": [
+      "Web Developer"
+    ],
+    "score": 34.5,
+    "reasoning": "Coverage (Intervention Breadth) = 48.0% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1254). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.\" at 0.84% of all SG conversations). This O*NET classification (and therefore this score) also covers: Web Developer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "mid",
+    "interventionBreadth": 0.48,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1254.00",
+    "onetTaskCount": 29,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "frontend-engineer",
+    "roleName": "Frontend Engineer",
+    "aliases": [
+      "Web Developer"
+    ],
+    "score": 33,
+    "reasoning": "Coverage (Intervention Breadth) = 48.0% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1254). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.\" at 0.84% of all SG conversations). This O*NET classification (and therefore this score) also covers: Web Developer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "senior",
+    "interventionBreadth": 0.48,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1254.00",
+    "onetTaskCount": 29,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "backend-engineer",
+    "roleName": "Backend Engineer",
+    "aliases": [
+      "Full-Stack Engineer",
+      "Software Engineer",
+      "Software Developer",
+      "API Engineer"
+    ],
+    "score": 21.6,
+    "reasoning": "Coverage (Intervention Breadth) = 28.8% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1252). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 2 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"analyze user needs and software requirements to determine feasibility of design within time and cost constraints.\" at 0.6% of all SG conversations). This O*NET classification (and therefore this score) also covers: Full-Stack Engineer, Software Engineer, Software Developer, API Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "junior",
+    "interventionBreadth": 0.288,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1252.00",
+    "onetTaskCount": 19,
+    "aiTouchedTasksSG": 2,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "backend-engineer",
+    "roleName": "Backend Engineer",
+    "aliases": [
+      "Full-Stack Engineer",
+      "Software Engineer",
+      "Software Developer",
+      "API Engineer"
+    ],
+    "score": 20.7,
+    "reasoning": "Coverage (Intervention Breadth) = 28.8% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1252). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 2 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"analyze user needs and software requirements to determine feasibility of design within time and cost constraints.\" at 0.6% of all SG conversations). This O*NET classification (and therefore this score) also covers: Full-Stack Engineer, Software Engineer, Software Developer, API Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "mid",
+    "interventionBreadth": 0.288,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1252.00",
+    "onetTaskCount": 19,
+    "aiTouchedTasksSG": 2,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "backend-engineer",
+    "roleName": "Backend Engineer",
+    "aliases": [
+      "Full-Stack Engineer",
+      "Software Engineer",
+      "Software Developer",
+      "API Engineer"
+    ],
+    "score": 19.8,
+    "reasoning": "Coverage (Intervention Breadth) = 28.8% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1252). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 2 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"analyze user needs and software requirements to determine feasibility of design within time and cost constraints.\" at 0.6% of all SG conversations). This O*NET classification (and therefore this score) also covers: Full-Stack Engineer, Software Engineer, Software Developer, API Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "senior",
+    "interventionBreadth": 0.288,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1252.00",
+    "onetTaskCount": 19,
+    "aiTouchedTasksSG": 2,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ui-engineer",
+    "roleName": "UI Engineer",
+    "aliases": [],
+    "score": 18.7,
+    "reasoning": "Coverage (Intervention Breadth) = 24.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1255). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.\" at 0.84% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "junior",
+    "interventionBreadth": 0.249,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1255.00",
+    "onetTaskCount": 30,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ui-engineer",
+    "roleName": "UI Engineer",
+    "aliases": [],
+    "score": 17.9,
+    "reasoning": "Coverage (Intervention Breadth) = 24.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1255). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.\" at 0.84% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "mid",
+    "interventionBreadth": 0.249,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1255.00",
+    "onetTaskCount": 30,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ui-engineer",
+    "roleName": "UI Engineer",
+    "aliases": [],
+    "score": 17.1,
+    "reasoning": "Coverage (Intervention Breadth) = 24.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1255). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.\" at 0.84% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Web Development",
+    "seniority": "senior",
+    "interventionBreadth": 0.249,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1255.00",
+    "onetTaskCount": 30,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ios-engineer",
+    "roleName": "iOS Engineer",
+    "aliases": [
+      "Android Engineer",
+      "React Native Developer",
+      "Flutter Developer",
+      "Cross-Platform Mobile Engineer",
+      "Mobile Software Engineer"
+    ],
+    "score": 21.6,
+    "reasoning": "Coverage (Intervention Breadth) = 28.8% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1252). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 2 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"analyze user needs and software requirements to determine feasibility of design within time and cost constraints.\" at 0.6% of all SG conversations). This O*NET classification (and therefore this score) also covers: Android Engineer, React Native Developer, Flutter Developer, Cross-Platform Mobile Engineer, Mobile Software Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Mobile Development",
+    "seniority": "junior",
+    "interventionBreadth": 0.288,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1252.00",
+    "onetTaskCount": 19,
+    "aiTouchedTasksSG": 2,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ios-engineer",
+    "roleName": "iOS Engineer",
+    "aliases": [
+      "Android Engineer",
+      "React Native Developer",
+      "Flutter Developer",
+      "Cross-Platform Mobile Engineer",
+      "Mobile Software Engineer"
+    ],
+    "score": 20.7,
+    "reasoning": "Coverage (Intervention Breadth) = 28.8% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1252). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 2 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"analyze user needs and software requirements to determine feasibility of design within time and cost constraints.\" at 0.6% of all SG conversations). This O*NET classification (and therefore this score) also covers: Android Engineer, React Native Developer, Flutter Developer, Cross-Platform Mobile Engineer, Mobile Software Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Mobile Development",
+    "seniority": "mid",
+    "interventionBreadth": 0.288,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1252.00",
+    "onetTaskCount": 19,
+    "aiTouchedTasksSG": 2,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "ios-engineer",
+    "roleName": "iOS Engineer",
+    "aliases": [
+      "Android Engineer",
+      "React Native Developer",
+      "Flutter Developer",
+      "Cross-Platform Mobile Engineer",
+      "Mobile Software Engineer"
+    ],
+    "score": 19.8,
+    "reasoning": "Coverage (Intervention Breadth) = 28.8% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1252). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 2 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"analyze user needs and software requirements to determine feasibility of design within time and cost constraints.\" at 0.6% of all SG conversations). This O*NET classification (and therefore this score) also covers: Android Engineer, React Native Developer, Flutter Developer, Cross-Platform Mobile Engineer, Mobile Software Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Mobile Development",
+    "seniority": "senior",
+    "interventionBreadth": 0.288,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1252.00",
+    "onetTaskCount": 19,
+    "aiTouchedTasksSG": 2,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "data-engineer",
+    "roleName": "Data Engineer",
+    "aliases": [
+      "Data Architect",
+      "Big Data Engineer"
+    ],
+    "score": 43.5,
+    "reasoning": "Coverage (Intervention Breadth) = 57.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1243). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"test programs or databases, correct errors, and make necessary modifications.\" at 0.33% of all SG conversations). This O*NET classification (and therefore this score) also covers: Data Architect, Big Data Engineer. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1243), not this specific O*NET detail occupation, so this score currently coincides with Analytics Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "junior",
+    "interventionBreadth": 0.579,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1243.00",
+    "onetTaskCount": 25,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "data-engineer",
+    "roleName": "Data Engineer",
+    "aliases": [
+      "Data Architect",
+      "Big Data Engineer"
+    ],
+    "score": 41.6,
+    "reasoning": "Coverage (Intervention Breadth) = 57.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1243). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"test programs or databases, correct errors, and make necessary modifications.\" at 0.33% of all SG conversations). This O*NET classification (and therefore this score) also covers: Data Architect, Big Data Engineer. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1243), not this specific O*NET detail occupation, so this score currently coincides with Analytics Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "mid",
+    "interventionBreadth": 0.579,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1243.00",
+    "onetTaskCount": 25,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "data-engineer",
+    "roleName": "Data Engineer",
+    "aliases": [
+      "Data Architect",
+      "Big Data Engineer"
+    ],
+    "score": 39.8,
+    "reasoning": "Coverage (Intervention Breadth) = 57.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1243). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"test programs or databases, correct errors, and make necessary modifications.\" at 0.33% of all SG conversations). This O*NET classification (and therefore this score) also covers: Data Architect, Big Data Engineer. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1243), not this specific O*NET detail occupation, so this score currently coincides with Analytics Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "senior",
+    "interventionBreadth": 0.579,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1243.00",
+    "onetTaskCount": 25,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "analytics-engineer",
+    "roleName": "Analytics Engineer",
+    "aliases": [],
+    "score": 43.5,
+    "reasoning": "Coverage (Intervention Breadth) = 57.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1243). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"write new programs or modify existing programs to meet customer requirements, using current programming languages and technologies.\" at 2.25% of all SG conversations). Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1243), not this specific O*NET detail occupation, so this score currently coincides with Data Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "junior",
+    "interventionBreadth": 0.579,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1243.01",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "analytics-engineer",
+    "roleName": "Analytics Engineer",
+    "aliases": [],
+    "score": 41.6,
+    "reasoning": "Coverage (Intervention Breadth) = 57.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1243). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"write new programs or modify existing programs to meet customer requirements, using current programming languages and technologies.\" at 2.25% of all SG conversations). Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1243), not this specific O*NET detail occupation, so this score currently coincides with Data Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "mid",
+    "interventionBreadth": 0.579,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1243.01",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "analytics-engineer",
+    "roleName": "Analytics Engineer",
+    "aliases": [],
+    "score": 39.8,
+    "reasoning": "Coverage (Intervention Breadth) = 57.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1243). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"write new programs or modify existing programs to meet customer requirements, using current programming languages and technologies.\" at 2.25% of all SG conversations). Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1243), not this specific O*NET detail occupation, so this score currently coincides with Data Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "senior",
+    "interventionBreadth": 0.579,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1243.01",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "data-analyst",
+    "roleName": "Data Analyst",
+    "aliases": [],
+    "score": 32.2,
+    "reasoning": "Coverage (Intervention Breadth) = 42.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2031). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "junior",
+    "interventionBreadth": 0.429,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-2031.00",
+    "onetTaskCount": 17,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "data-analyst",
+    "roleName": "Data Analyst",
+    "aliases": [],
+    "score": 30.8,
+    "reasoning": "Coverage (Intervention Breadth) = 42.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2031). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "mid",
+    "interventionBreadth": 0.429,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-2031.00",
+    "onetTaskCount": 17,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "data-analyst",
+    "roleName": "Data Analyst",
+    "aliases": [],
+    "score": 29.5,
+    "reasoning": "Coverage (Intervention Breadth) = 42.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2031). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "senior",
+    "interventionBreadth": 0.429,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-2031.00",
+    "onetTaskCount": 17,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "bi-engineer",
+    "roleName": "BI Engineer",
+    "aliases": [],
+    "score": 34.6,
+    "reasoning": "Coverage (Intervention Breadth) = 46.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2051). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-2051), not this specific O*NET detail occupation, so this score currently coincides with ML Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "junior",
+    "interventionBreadth": 0.461,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-2051.01",
+    "onetTaskCount": 17,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "bi-engineer",
+    "roleName": "BI Engineer",
+    "aliases": [],
+    "score": 33.1,
+    "reasoning": "Coverage (Intervention Breadth) = 46.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2051). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-2051), not this specific O*NET detail occupation, so this score currently coincides with ML Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "mid",
+    "interventionBreadth": 0.461,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-2051.01",
+    "onetTaskCount": 17,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "bi-engineer",
+    "roleName": "BI Engineer",
+    "aliases": [],
+    "score": 31.7,
+    "reasoning": "Coverage (Intervention Breadth) = 46.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-2051). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-2051), not this specific O*NET detail occupation, so this score currently coincides with ML Engineer even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "senior",
+    "interventionBreadth": 0.461,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-2051.01",
+    "onetTaskCount": 17,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "database-administrator",
+    "roleName": "Database Administrator",
+    "aliases": [],
+    "score": 24.9,
+    "reasoning": "Coverage (Intervention Breadth) = 33.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1242). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"test programs or databases, correct errors, and make necessary modifications.\" at 0.33% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "junior",
+    "interventionBreadth": 0.332,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1242.00",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "database-administrator",
+    "roleName": "Database Administrator",
+    "aliases": [],
+    "score": 23.8,
+    "reasoning": "Coverage (Intervention Breadth) = 33.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1242). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"test programs or databases, correct errors, and make necessary modifications.\" at 0.33% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "mid",
+    "interventionBreadth": 0.332,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1242.00",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "database-administrator",
+    "roleName": "Database Administrator",
+    "aliases": [],
+    "score": 22.8,
+    "reasoning": "Coverage (Intervention Breadth) = 33.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1242). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"test programs or databases, correct errors, and make necessary modifications.\" at 0.33% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "senior",
+    "interventionBreadth": 0.332,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1242.00",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "business-analyst",
+    "roleName": "Business Analyst",
+    "aliases": [],
+    "score": 18.3,
+    "reasoning": "Coverage (Intervention Breadth) = 24.3% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 13-1111). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "junior",
+    "interventionBreadth": 0.244,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "13-1111.00",
+    "onetTaskCount": 11,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "business-analyst",
+    "roleName": "Business Analyst",
+    "aliases": [],
+    "score": 17.5,
+    "reasoning": "Coverage (Intervention Breadth) = 24.3% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 13-1111). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "mid",
+    "interventionBreadth": 0.244,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "13-1111.00",
+    "onetTaskCount": 11,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "business-analyst",
+    "roleName": "Business Analyst",
+    "aliases": [],
+    "score": 16.7,
+    "reasoning": "Coverage (Intervention Breadth) = 24.3% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 13-1111). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Data Engineering",
+    "seniority": "senior",
+    "interventionBreadth": 0.244,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "13-1111.00",
+    "onetTaskCount": 11,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "devops-engineer",
+    "roleName": "DevOps Engineer",
+    "aliases": [
+      "Site Reliability Engineer (SRE)",
+      "Infrastructure Engineer",
+      "Build/Release Engineer"
+    ],
+    "score": 25.3,
+    "reasoning": "Coverage (Intervention Breadth) = 33.7% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1244). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"diagnose, troubleshoot, and resolve hardware, software, or other network and system problems, and replace defective components when necessary.\" at 1.67% of all SG conversations). This O*NET classification (and therefore this score) also covers: Site Reliability Engineer (SRE), Infrastructure Engineer, Build/Release Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "junior",
+    "interventionBreadth": 0.337,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1244.00",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "devops-engineer",
+    "roleName": "DevOps Engineer",
+    "aliases": [
+      "Site Reliability Engineer (SRE)",
+      "Infrastructure Engineer",
+      "Build/Release Engineer"
+    ],
+    "score": 24.3,
+    "reasoning": "Coverage (Intervention Breadth) = 33.7% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1244). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"diagnose, troubleshoot, and resolve hardware, software, or other network and system problems, and replace defective components when necessary.\" at 1.67% of all SG conversations). This O*NET classification (and therefore this score) also covers: Site Reliability Engineer (SRE), Infrastructure Engineer, Build/Release Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "mid",
+    "interventionBreadth": 0.337,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1244.00",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "devops-engineer",
+    "roleName": "DevOps Engineer",
+    "aliases": [
+      "Site Reliability Engineer (SRE)",
+      "Infrastructure Engineer",
+      "Build/Release Engineer"
+    ],
+    "score": 23.2,
+    "reasoning": "Coverage (Intervention Breadth) = 33.7% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1244). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"diagnose, troubleshoot, and resolve hardware, software, or other network and system problems, and replace defective components when necessary.\" at 1.67% of all SG conversations). This O*NET classification (and therefore this score) also covers: Site Reliability Engineer (SRE), Infrastructure Engineer, Build/Release Engineer.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "senior",
+    "interventionBreadth": 0.337,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1244.00",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "cloud-engineer",
+    "roleName": "Cloud Engineer",
+    "aliases": [
+      "Platform Engineer",
+      "Systems Engineer",
+      "Cloud Architect"
+    ],
+    "score": 23.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: Platform Engineer, Systems Engineer, Cloud Architect. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with Security Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "junior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1299.08",
+    "onetTaskCount": 28,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "cloud-engineer",
+    "roleName": "Cloud Engineer",
+    "aliases": [
+      "Platform Engineer",
+      "Systems Engineer",
+      "Cloud Architect"
+    ],
+    "score": 22.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: Platform Engineer, Systems Engineer, Cloud Architect. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with Security Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "mid",
+    "interventionBreadth": 0.311,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1299.08",
+    "onetTaskCount": 28,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "cloud-engineer",
+    "roleName": "Cloud Engineer",
+    "aliases": [
+      "Platform Engineer",
+      "Systems Engineer",
+      "Cloud Architect"
+    ],
+    "score": 21.4,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: Platform Engineer, Systems Engineer, Cloud Architect. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with Security Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "senior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1299.08",
+    "onetTaskCount": 28,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "network-engineer",
+    "roleName": "Network Engineer",
+    "aliases": [],
+    "score": 14.9,
+    "reasoning": "Coverage (Intervention Breadth) = 19.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1241). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "junior",
+    "interventionBreadth": 0.199,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1241.00",
+    "onetTaskCount": 33,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "network-engineer",
+    "roleName": "Network Engineer",
+    "aliases": [],
+    "score": 14.3,
+    "reasoning": "Coverage (Intervention Breadth) = 19.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1241). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "mid",
+    "interventionBreadth": 0.199,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1241.00",
+    "onetTaskCount": 33,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "network-engineer",
+    "roleName": "Network Engineer",
+    "aliases": [],
+    "score": 13.7,
+    "reasoning": "Coverage (Intervention Breadth) = 19.9% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1241). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "senior",
+    "interventionBreadth": 0.199,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1241.00",
+    "onetTaskCount": 33,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "embedded-systems-engineer",
+    "roleName": "Embedded Systems Engineer",
+    "aliases": [],
+    "score": 10.9,
+    "reasoning": "Coverage (Intervention Breadth) = 14.5% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 17-2061). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"store, retrieve, and manipulate data for analysis of system capabilities and requirements.\" at 0.29% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "junior",
+    "interventionBreadth": 0.145,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "17-2061.00",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "embedded-systems-engineer",
+    "roleName": "Embedded Systems Engineer",
+    "aliases": [],
+    "score": 10.5,
+    "reasoning": "Coverage (Intervention Breadth) = 14.5% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 17-2061). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"store, retrieve, and manipulate data for analysis of system capabilities and requirements.\" at 0.29% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "mid",
+    "interventionBreadth": 0.145,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "17-2061.00",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "embedded-systems-engineer",
+    "roleName": "Embedded Systems Engineer",
+    "aliases": [],
+    "score": 10,
+    "reasoning": "Coverage (Intervention Breadth) = 14.5% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 17-2061). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. Singapore-specific evidence: 1 of this role's O*NET tasks appear directly in Singapore Claude.ai usage data (top match: \"store, retrieve, and manipulate data for analysis of system capabilities and requirements.\" at 0.29% of all SG conversations).",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Systems & Infrastructure",
+    "seniority": "senior",
+    "interventionBreadth": 0.145,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "17-2061.00",
+    "onetTaskCount": 18,
+    "aiTouchedTasksSG": 1,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "security-engineer",
+    "roleName": "Security Engineer",
+    "aliases": [
+      "Cloud Security Engineer",
+      "Application Security Engineer",
+      "Security Architect"
+    ],
+    "score": 23.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: Cloud Security Engineer, Application Security Engineer, Security Architect. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "junior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1299.05",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "security-engineer",
+    "roleName": "Security Engineer",
+    "aliases": [
+      "Cloud Security Engineer",
+      "Application Security Engineer",
+      "Security Architect"
+    ],
+    "score": 22.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: Cloud Security Engineer, Application Security Engineer, Security Architect. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "mid",
+    "interventionBreadth": 0.311,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1299.05",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "security-engineer",
+    "roleName": "Security Engineer",
+    "aliases": [
+      "Cloud Security Engineer",
+      "Application Security Engineer",
+      "Security Architect"
+    ],
+    "score": 21.4,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: Cloud Security Engineer, Application Security Engineer, Security Architect. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Penetration Tester, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "senior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1299.05",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "security-analyst",
+    "roleName": "Security Analyst",
+    "aliases": [
+      "SOC Analyst"
+    ],
+    "score": 36.5,
+    "reasoning": "Coverage (Intervention Breadth) = 48.6% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1212). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: SOC Analyst.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "junior",
+    "interventionBreadth": 0.486,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1212.00",
+    "onetTaskCount": 11,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "security-analyst",
+    "roleName": "Security Analyst",
+    "aliases": [
+      "SOC Analyst"
+    ],
+    "score": 35,
+    "reasoning": "Coverage (Intervention Breadth) = 48.6% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1212). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: SOC Analyst.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "mid",
+    "interventionBreadth": 0.486,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1212.00",
+    "onetTaskCount": 11,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "security-analyst",
+    "roleName": "Security Analyst",
+    "aliases": [
+      "SOC Analyst"
+    ],
+    "score": 33.4,
+    "reasoning": "Coverage (Intervention Breadth) = 48.6% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1212). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. This O*NET classification (and therefore this score) also covers: SOC Analyst.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "senior",
+    "interventionBreadth": 0.486,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1212.00",
+    "onetTaskCount": 11,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "penetration-tester",
+    "roleName": "Penetration Tester",
+    "aliases": [],
+    "score": 23.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Security Engineer, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "junior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1299.04",
+    "onetTaskCount": 22,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "penetration-tester",
+    "roleName": "Penetration Tester",
+    "aliases": [],
+    "score": 22.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Security Engineer, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "mid",
+    "interventionBreadth": 0.311,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1299.04",
+    "onetTaskCount": 22,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "penetration-tester",
+    "roleName": "Penetration Tester",
+    "aliases": [],
+    "score": 21.4,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Security Engineer, Incident Response Analyst even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "senior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1299.04",
+    "onetTaskCount": 22,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "incident-response-analyst",
+    "roleName": "Incident Response Analyst",
+    "aliases": [],
+    "score": 23.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Security Engineer, Penetration Tester even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "junior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "15-1299.06",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "incident-response-analyst",
+    "roleName": "Incident Response Analyst",
+    "aliases": [],
+    "score": 22.3,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Security Engineer, Penetration Tester even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "mid",
+    "interventionBreadth": 0.311,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "15-1299.06",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "incident-response-analyst",
+    "roleName": "Incident Response Analyst",
+    "aliases": [],
+    "score": 21.4,
+    "reasoning": "Coverage (Intervention Breadth) = 31.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 15-1299). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed. Anthropic's published exposure data resolves only to the parent occupation family (SOC 15-1299), not this specific O*NET detail occupation, so this score currently coincides with MLOps Engineer, Cloud Engineer, Security Engineer, Penetration Tester even though their O*NET tasks differ.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "senior",
+    "interventionBreadth": 0.311,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "15-1299.06",
+    "onetTaskCount": 20,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "grc-analyst",
+    "roleName": "GRC Analyst",
+    "aliases": [],
+    "score": 9.1,
+    "reasoning": "Coverage (Intervention Breadth) = 12.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 13-1041). Intervention Mode = 37.9% automation / 62.1% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a junior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "junior",
+    "interventionBreadth": 0.121,
+    "augShare": 0.621,
+    "autoShare": 0.379,
+    "onetCode": "13-1041.00",
+    "onetTaskCount": 16,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "grc-analyst",
+    "roleName": "GRC Analyst",
+    "aliases": [],
+    "score": 8.7,
+    "reasoning": "Coverage (Intervention Breadth) = 12.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 13-1041). Intervention Mode = 29.8% automation / 70.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a mid seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "mid",
+    "interventionBreadth": 0.121,
+    "augShare": 0.702,
+    "autoShare": 0.299,
+    "onetCode": "13-1041.00",
+    "onetTaskCount": 16,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  },
+  {
+    "roleId": "grc-analyst",
+    "roleName": "GRC Analyst",
+    "aliases": [],
+    "score": 8.3,
+    "reasoning": "Coverage (Intervention Breadth) = 12.1% of this occupation's O*NET tasks show meaningful Claude usage, from Anthropic Economic Index global occupational exposure data (SOC 13-1041). Intervention Mode = 21.8% automation / 78.2% augmentation, derived from Singapore-specific Claude.ai collaboration-pattern data (directive vs. feedback-loop/iteration/learning/validation), with a senior seniority adjustment applied to the mix. No Singapore-specific O*NET task for this role cleared the reporting threshold in the raw SG export (top ~63 tasks economy-wide) — used global AEI occupational exposure as instructed.",
+    "sources": [
+      "Anthropic Economic Index, release_2026_03_24, labor_market_impacts/job_exposure.csv (global occupational exposure)",
+      "Anthropic Economic Index, release_2026_03_24, aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv, geo=SG (collaboration mix)",
+      "O*NET 29.2 Database, Task Statements.txt (onetcenter.org)"
+    ],
+    "industry": "Cybersecurity",
+    "seniority": "senior",
+    "interventionBreadth": 0.121,
+    "augShare": 0.782,
+    "autoShare": 0.218,
+    "onetCode": "13-1041.00",
+    "onetTaskCount": 16,
+    "aiTouchedTasksSG": 0,
+    "weekOf": "2026-06-16",
+    "generatedAt": "2026-06-16T10:45:26.319Z"
+  }
+]
