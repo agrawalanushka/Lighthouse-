@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Newspaper, Briefcase, ShieldAlert, ArrowRight } from "lucide-react";
+import { Newspaper, ShieldAlert, MessageCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -99,30 +99,30 @@ export default function HomePage() {
 
             <Card>
               <CardHeader>
-                <Briefcase className="h-6 w-6 text-muted-foreground" />
+                <ShieldAlert className="h-6 w-6 text-muted-foreground" />
                 <CardTitle className="pt-2 text-base">
-                  Job matches
+                  Intervention Score
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Real listings scored against your profile, so you spend
-                  time applying — not searching.
+                  See how AI is reshaping your target role, backed by
+                  cited evidence — not a guess about the future.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <ShieldAlert className="h-6 w-6 text-muted-foreground" />
+                <MessageCircle className="h-6 w-6 text-muted-foreground" />
                 <CardTitle className="pt-2 text-base">
-                  Risk &amp; skill gap
+                  AI Chat
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  See how AI is reshaping your target role, and exactly
-                  which skills close the gap fastest.
+                  Ask about your pulse digest or your intervention score
+                  and get answers grounded in your own dashboard.
                 </p>
               </CardContent>
             </Card>
