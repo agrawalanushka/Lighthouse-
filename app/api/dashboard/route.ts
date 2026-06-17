@@ -1,6 +1,7 @@
 import { createSupabaseServerClient } from "@/lib/supabase-server";
 import type { DashboardSnapshot, PulseItem, RiskScore } from "@/lib/types";
 import type { NextRequest } from "next/server";
+import riskScoresSeed from "@/data/seed/risk-scores.json";
 
 // /api/dashboard is the only route allowed to consume other features' APIs
 // (per CLAUDE.md cross-feature consumption rule).
@@ -15,13 +16,39 @@ import type { NextRequest } from "next/server";
 //                  from the "profiles" table (Min's schema), falls back to
 //                  "backend-engineer" (a real seed roleId) if unset.
 //                  profiles.targetRoles stores display labels (e.g.
-//                  "Frontend Engineer"), but /api/risk/[roleId] expects
-//                  slugs (e.g. "frontend-engineer") — slugified below.
+//                  "Frontend Engineer", "API Engineer"), but /api/risk/[roleId]
+//                  expects slugs (e.g. "frontend-engineer"). We build an
+//                  alias map from Vidush's own seed data (roleId + aliases)
+//                  so labels that are aliases of a real role (e.g. "API
+//                  Engineer" -> backend-engineer) resolve correctly, not
+//                  just labels that happen to match their own slug.
 // Still placeholder:
 //   - weeklyFocus -> short heuristic for now; swap for LLM-generated +
 //     24h cache once that's built.
 
 const FALLBACK_ROLE_ID = "backend-engineer";
+
+function slugify(label: string): string {
+  return label
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+// Built once at module load from Vidush's seed data: maps both each role's
+// own slug and every alias's slug to the canonical roleId.
+const aliasToRoleId = new Map<string, string>();
+for (const entry of riskScoresSeed as { roleId: string; aliases?: string[] }[]) {
+  aliasToRoleId.set(entry.roleId, entry.roleId);
+  for (const alias of entry.aliases ?? []) {
+    aliasToRoleId.set(slugify(alias), entry.roleId);
+  }
+}
+
+function resolveRoleId(label: string): string {
+  const slug = slugify(label);
+  return aliasToRoleId.get(slug) ?? slug;
+}
 
 export async function GET(request: NextRequest) {
   const supabase = await createSupabaseServerClient();
@@ -61,10 +88,7 @@ export async function GET(request: NextRequest) {
       .single();
 
     if (profile?.targetRoles?.[0]) {
-      roleId = profile.targetRoles[0]
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/(^-|-$)/g, "");
+      roleId = resolveRoleId(profile.targetRoles[0]);
     }
 
     const riskRes = await fetch(`${origin}/api/risk/${roleId}`, {
