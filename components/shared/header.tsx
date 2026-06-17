@@ -6,7 +6,7 @@ const navItems = [
   { href: "/pulse", label: "Pulse" },
   { href: "/jobs", label: "Jobs" },
   { href: "/risk", label: "Risk" },
-  { href: "/skill-gap", label: "Skill Gap" },
+  { href: "/chat", label: "Chat" },
   { href: "/profile", label: "Profile" },
 ];
 
