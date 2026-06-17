@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Lightbulb } from "lucide-react";
+import { TextReveal } from "@/components/ui/cascade-text";
 
 const navItems = [
   { href: "/dashboard", label: "Dashboard" },
@@ -15,7 +16,14 @@ export function Header() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2 font-semibold">
           <Lightbulb className="h-5 w-5 text-primary" />
-          Lighthouse
+          <TextReveal
+            as="span"
+            text="Lighthouse"
+            fontSize="1rem"
+            hoverColor="var(--primary)"
+            className="normal-case! font-semibold!"
+            style={{ padding: 0 }}
+          />
         </Link>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
           {navItems.map((item) => (
