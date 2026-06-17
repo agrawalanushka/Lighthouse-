@@ -35,7 +35,7 @@ export default function HomePage() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Button asChild size="lg">
-              <Link href="/onboarding">
+              <Link href="/signup">
                 Get started
                 <ArrowRight className="h-4 w-4" />
               </Link>
@@ -46,7 +46,7 @@ export default function HomePage() {
               variant="outline"
               className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
             >
-              <Link href="/onboarding">Log in</Link>
+              <Link href="/login">Log in</Link>
             </Button>
           </div>
         </div>
@@ -141,7 +141,7 @@ export default function HomePage() {
             </p>
           </div>
           <Button asChild size="lg">
-            <Link href="/onboarding">
+            <Link href="/signup">
               Get started
               <ArrowRight className="h-4 w-4" />
             </Link>
