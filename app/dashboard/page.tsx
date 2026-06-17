@@ -18,11 +18,6 @@ import {
   RiskSnapshotCardError,
 } from "@/components/dashboard/risk-snapshot-card";
 import {
-  SkillGapCard,
-  SkillGapCardSkeleton,
-  SkillGapCardError,
-} from "@/components/dashboard/skill-gap-card";
-import {
   WeeklyFocusWidget,
   WeeklyFocusWidgetSkeleton,
   WeeklyFocusWidgetError,
@@ -30,7 +25,7 @@ import {
 
 async function fetchDashboard(): Promise<DashboardSnapshot> {
   // Cookies are sent automatically; the server client in
-  // /lib/supabase.ts reads the session from them.
+  // /lib/supabase-server.ts reads the session from them.
   const res = await fetch("/api/dashboard");
 
   if (!res.ok) {
@@ -88,14 +83,6 @@ export default function DashboardPage() {
           <RiskSnapshotCardError />
         ) : (
           <RiskSnapshotCard risk={data?.riskScore ?? null} />
-        )}
-
-        {isLoading ? (
-          <SkillGapCardSkeleton />
-        ) : isError ? (
-          <SkillGapCardError />
-        ) : (
-          <SkillGapCard gap={data?.skillGap ?? null} />
         )}
       </div>
     </div>
