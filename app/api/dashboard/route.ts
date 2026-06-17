@@ -5,19 +5,23 @@ import type { NextRequest } from "next/server";
 // /api/dashboard is the only route allowed to consume other features' APIs
 // (per CLAUDE.md cross-feature consumption rule).
 //
-// Dashboard now shows 3 cards: Pulse, AI Intervention Score, Chat (static link).
+// Dashboard shows 3 cards: Pulse, AI Intervention Score, Chat (static link).
 // Jobs card removed from dashboard per product decision — Jobs feature itself
 // (page, API, nav link, seed data) is untouched, just not surfaced here.
 //
 // Wired to real routes:
 //   - pulseItem -> /api/pulse/highlight (Rishi)
-//   - riskScore -> /api/risk/[roleId] (Vidush) — uses user's first targetRole,
-//                  falls back to "software-engineer" if profile has none yet.
+//   - riskScore -> /api/risk/[roleId] (Vidush) — uses user's first targetRole
+//                  from the "profiles" table (Min's schema), falls back to
+//                  "backend-engineer" (a real seed roleId) if unset.
+//                  profiles.targetRoles stores display labels (e.g.
+//                  "Frontend Engineer"), but /api/risk/[roleId] expects
+//                  slugs (e.g. "frontend-engineer") — slugified below.
 // Still placeholder:
 //   - weeklyFocus -> short heuristic for now; swap for LLM-generated +
 //     24h cache once that's built.
 
-const FALLBACK_ROLE_ID = "software-engineer";
+const FALLBACK_ROLE_ID = "backend-engineer";
 
 export async function GET(request: NextRequest) {
   const supabase = await createSupabaseServerClient();
@@ -47,19 +51,20 @@ export async function GET(request: NextRequest) {
   }
 
   // --- AI Intervention Score (real) ---
-  // Needs a roleId. Pull the user's first target role from their profile;
-  // fall back to a default so the card still renders something useful.
   let riskScore: RiskScore | null = null;
   try {
     let roleId = FALLBACK_ROLE_ID;
     const { data: profile } = await supabase
-      .from("user_profiles")
-      .select("target_roles")
+      .from("profiles")
+      .select("targetRoles")
       .eq("id", user.id)
       .single();
 
-    if (profile?.target_roles?.[0]) {
-      roleId = profile.target_roles[0];
+    if (profile?.targetRoles?.[0]) {
+      roleId = profile.targetRoles[0]
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "");
     }
 
     const riskRes = await fetch(`${origin}/api/risk/${roleId}`, {
