@@ -13,7 +13,7 @@ export function RiskSnapshotCardSkeleton() {
   return (
     <Card>
       <CardHeader>
-        <Skeleton className="h-5 w-36" />
+        <Skeleton className="h-5 w-44" />
       </CardHeader>
       <CardContent className="space-y-2">
         <Skeleton className="h-8 w-20" />
@@ -30,14 +30,14 @@ export function RiskSnapshotCardError() {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-base">
           <ShieldAlert className="h-4 w-4" />
-          Risk Snapshot
+          AI Intervention Score
         </CardTitle>
       </CardHeader>
       <CardContent>
         <Alert variant="destructive">
-          <AlertTitle>Couldn&apos;t load risk score</AlertTitle>
+          <AlertTitle>Couldn&apos;t load score</AlertTitle>
           <AlertDescription>
-            Something went wrong fetching your role&apos;s risk score.
+            Something went wrong fetching your role&apos;s AI intervention score.
           </AlertDescription>
         </Alert>
       </CardContent>
@@ -45,7 +45,7 @@ export function RiskSnapshotCardError() {
   );
 }
 
-function riskColor(score: number) {
+function scoreColor(score: number) {
   if (score < 33) return "text-green-600";
   if (score < 66) return "text-amber-600";
   return "text-red-600";
@@ -58,12 +58,12 @@ export function RiskSnapshotCard({ risk }: { risk: RiskScore | null }) {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-base">
             <ShieldAlert className="h-4 w-4" />
-            Risk Snapshot
+            AI Intervention Score
           </CardTitle>
         </CardHeader>
         <CardContent className="flex flex-col items-center justify-center py-6 text-center text-muted-foreground">
           <ShieldAlert className="h-8 w-8 mb-2 opacity-40" />
-          <p className="text-sm">Set a target role to see your risk score.</p>
+          <p className="text-sm">Set a target role to see your score.</p>
         </CardContent>
       </Card>
     );
@@ -74,16 +74,16 @@ export function RiskSnapshotCard({ risk }: { risk: RiskScore | null }) {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-base">
           <ShieldAlert className="h-4 w-4" />
-          Risk Snapshot — {risk.roleName}
+          AI Intervention Score — {risk.roleName}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-2">
         <div className="flex items-baseline gap-2">
-          <span className={`text-3xl font-bold ${riskColor(risk.score)}`}>
+          <span className={`text-3xl font-bold ${scoreColor(risk.score)}`}>
             {risk.score}
           </span>
           <span className="text-sm text-muted-foreground">
-            / 100 automation risk
+            / 100 AI intervention
           </span>
         </div>
         <p className="text-sm text-muted-foreground">{risk.reasoning}</p>

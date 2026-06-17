@@ -5,9 +5,12 @@ import type { NextRequest } from "next/server";
 // /api/dashboard is the only route allowed to consume other features' APIs
 // (per CLAUDE.md cross-feature consumption rule).
 //
+// Dashboard now shows 3 cards: Pulse, AI Intervention Score, Chat (static link).
+// Jobs card removed from dashboard per product decision — Jobs feature itself
+// (page, API, nav link, seed data) is untouched, just not surfaced here.
+//
 // Wired to real routes:
 //   - pulseItem -> /api/pulse/highlight (Rishi)
-//   - topJobs   -> /api/jobs/top-matches (Amudhan)
 //   - riskScore -> /api/risk/[roleId] (Vidush) — uses user's first targetRole,
 //                  falls back to "software-engineer" if profile has none yet.
 // Still placeholder:
@@ -43,25 +46,7 @@ export async function GET(request: NextRequest) {
     pulseItem = null;
   }
 
-  // --- Jobs (real) ---
-  // Amudhan's route still expects a Bearer token rather than cookies.
-  // Forward the user's access token if the current session has one.
-  let topJobs: DashboardSnapshot["topJobs"] = [];
-  try {
-    const { data: sessionData } = await supabase.auth.getSession();
-    const token = sessionData.session?.access_token;
-    const jobsRes = await fetch(`${origin}/api/jobs/top-matches`, {
-      headers: token
-        ? { Authorization: `Bearer ${token}`, cookie: cookieHeader }
-        : { cookie: cookieHeader },
-      cache: "no-store",
-    });
-    if (jobsRes.ok) topJobs = await jobsRes.json();
-  } catch {
-    topJobs = [];
-  }
-
-  // --- Risk (real) ---
+  // --- AI Intervention Score (real) ---
   // Needs a roleId. Pull the user's first target role from their profile;
   // fall back to a default so the card still renders something useful.
   let riskScore: RiskScore | null = null;
@@ -105,7 +90,6 @@ export async function GET(request: NextRequest) {
   const snapshot: Partial<DashboardSnapshot> & { userId: string } = {
     userId: user.id,
     pulseItem: pulseItem ?? undefined,
-    topJobs,
     riskScore: riskScore ?? undefined,
     weeklyFocus,
     generatedAt: new Date().toISOString(),

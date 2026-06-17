@@ -8,15 +8,11 @@ import {
   PulseCardError,
 } from "@/components/dashboard/pulse-card";
 import {
-  JobMatchesCard,
-  JobMatchesCardSkeleton,
-  JobMatchesCardError,
-} from "@/components/dashboard/job-matches-card";
-import {
   RiskSnapshotCard,
   RiskSnapshotCardSkeleton,
   RiskSnapshotCardError,
 } from "@/components/dashboard/risk-snapshot-card";
+import { ChatCard } from "@/components/dashboard/chat-card";
 import {
   WeeklyFocusWidget,
   WeeklyFocusWidgetSkeleton,
@@ -59,7 +55,7 @@ export default function DashboardPage() {
         <WeeklyFocusWidget focus={data?.weeklyFocus ?? null} />
       )}
 
-      {/* Insight cards grid */}
+      {/* Insight cards grid: Pulse, AI Intervention Score, Chat */}
       <div className="grid gap-4 sm:grid-cols-2">
         {isLoading ? (
           <PulseCardSkeleton />
@@ -70,20 +66,14 @@ export default function DashboardPage() {
         )}
 
         {isLoading ? (
-          <JobMatchesCardSkeleton />
-        ) : isError ? (
-          <JobMatchesCardError />
-        ) : (
-          <JobMatchesCard jobs={data?.topJobs ?? []} />
-        )}
-
-        {isLoading ? (
           <RiskSnapshotCardSkeleton />
         ) : isError ? (
           <RiskSnapshotCardError />
         ) : (
           <RiskSnapshotCard risk={data?.riskScore ?? null} />
         )}
+
+        <ChatCard />
       </div>
     </div>
   );
