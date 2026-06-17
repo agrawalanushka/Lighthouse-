@@ -8,20 +8,11 @@ import {
   PulseCardError,
 } from "@/components/dashboard/pulse-card";
 import {
-  JobMatchesCard,
-  JobMatchesCardSkeleton,
-  JobMatchesCardError,
-} from "@/components/dashboard/job-matches-card";
-import {
   RiskSnapshotCard,
   RiskSnapshotCardSkeleton,
   RiskSnapshotCardError,
 } from "@/components/dashboard/risk-snapshot-card";
-import {
-  SkillGapCard,
-  SkillGapCardSkeleton,
-  SkillGapCardError,
-} from "@/components/dashboard/skill-gap-card";
+import { ChatCard } from "@/components/dashboard/chat-card";
 import {
   WeeklyFocusWidget,
   WeeklyFocusWidgetSkeleton,
@@ -30,7 +21,7 @@ import {
 
 async function fetchDashboard(): Promise<DashboardSnapshot> {
   // Cookies are sent automatically; the server client in
-  // /lib/supabase.ts reads the session from them.
+  // /lib/supabase-server.ts reads the session from them.
   const res = await fetch("/api/dashboard");
 
   if (!res.ok) {
@@ -64,7 +55,7 @@ export default function DashboardPage() {
         <WeeklyFocusWidget focus={data?.weeklyFocus ?? null} />
       )}
 
-      {/* Insight cards grid */}
+      {/* Insight cards grid: Pulse, AI Intervention Score, Chat */}
       <div className="grid gap-4 sm:grid-cols-2">
         {isLoading ? (
           <PulseCardSkeleton />
@@ -75,14 +66,6 @@ export default function DashboardPage() {
         )}
 
         {isLoading ? (
-          <JobMatchesCardSkeleton />
-        ) : isError ? (
-          <JobMatchesCardError />
-        ) : (
-          <JobMatchesCard jobs={data?.topJobs ?? []} />
-        )}
-
-        {isLoading ? (
           <RiskSnapshotCardSkeleton />
         ) : isError ? (
           <RiskSnapshotCardError />
@@ -90,13 +73,7 @@ export default function DashboardPage() {
           <RiskSnapshotCard risk={data?.riskScore ?? null} />
         )}
 
-        {isLoading ? (
-          <SkillGapCardSkeleton />
-        ) : isError ? (
-          <SkillGapCardError />
-        ) : (
-          <SkillGapCard gap={data?.skillGap ?? null} />
-        )}
+        <ChatCard />
       </div>
     </div>
   );
