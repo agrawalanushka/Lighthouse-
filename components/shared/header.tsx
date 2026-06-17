@@ -4,8 +4,7 @@ import { Lightbulb } from "lucide-react";
 const navItems = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/pulse", label: "Pulse" },
-  { href: "/jobs", label: "Jobs" },
-  { href: "/risk", label: "Risk" },
+  { href: "/risk", label: "Intervention Score" },
   { href: "/chat", label: "Chat" },
   { href: "/profile", label: "Profile" },
 ];
