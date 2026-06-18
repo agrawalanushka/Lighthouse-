@@ -5,6 +5,7 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { formatDistanceToNow } from "date-fns";
 import { RefreshCw, ExternalLink, Zap, Globe, User } from "lucide-react";
 import { PulseDigest, PulseItem } from "@/lib/types";
+import { PulseBackground } from "@/components/ui/pulse-background";
 
 type Tab = "general" | "personalized";
 
@@ -111,7 +112,9 @@ export default function PulsePage() {
   const personalizedCount = digest?.personalizedItems?.length ?? 0;
 
   return (
-    <div className="p-8 max-w-3xl mx-auto">
+    <div className="relative min-h-screen">
+      <PulseBackground />
+      <div className="relative z-10 p-8 max-w-3xl mx-auto">
       {/* Header */}
       <div className="flex items-start justify-between mb-10">
         <div>
@@ -234,6 +237,7 @@ export default function PulsePage() {
           )}
         </section>
       )}
+      </div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Lightbulb } from "lucide-react";
 import { TextReveal } from "@/components/ui/cascade-text";
+import { NavHeader } from "@/components/ui/nav-header";
 
 const navItems = [
   { href: "/dashboard", label: "Dashboard" },
@@ -25,17 +26,7 @@ export function Header() {
             style={{ padding: 0 }}
           />
         </Link>
-        <nav className="flex items-center gap-4 text-sm text-muted-foreground">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="hover:text-foreground transition-colors"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <NavHeader items={navItems} />
       </div>
     </header>
   );

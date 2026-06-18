@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/select";
 import type { RiskScoreDetail, RiskScoreHistory } from "@/lib/risk/compute";
 import { SENIORITIES, riskColor, riskBand } from "@/lib/risk/ui";
+import { FallingPattern } from "@/components/ui/falling-pattern";
 import { RiskTrendChart } from "./risk-trend-chart";
 
 export default function RiskDetailPage() {
@@ -69,8 +70,9 @@ export default function RiskDetailPage() {
   const hasVisibleGlobalPoint = visiblePoints.some((p) => p.source === "global");
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-3xl mx-auto px-4 py-8">
+    <div className="relative min-h-screen bg-gray-50">
+      <FallingPattern className="pointer-events-none absolute inset-0 opacity-[0.85] [mask-image:radial-gradient(ellipse_at_center,transparent_3%,black_100%)]" />
+      <div className="relative z-10 max-w-3xl mx-auto px-4 py-8">
         <Link
           href="/risk"
           className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-900 mb-6 transition-colors"

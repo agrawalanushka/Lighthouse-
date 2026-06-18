@@ -2,13 +2,15 @@
 
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { ShieldAlert, AlertCircle } from "lucide-react";
+import { ShieldAlert, AlertCircle, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import type { RiskScore } from "@/lib/types";
 import { ROLE_DEFINITIONS } from "@/lib/risk/constants";
 import { SENIORITIES, riskColor, riskBand } from "@/lib/risk/ui";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
+import { FallingPattern } from "@/components/ui/falling-pattern";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import {
@@ -36,12 +38,21 @@ function RiskCardSkeleton() {
 
 const ALIASES_BY_ROLE_ID = new Map(ROLE_DEFINITIONS.map((r) => [r.roleId, r.aliases]));
 
-function RiskCard({ risk }: { risk: RiskScore }) {
+// /api/risk passes these through on top of the shared RiskScore so the cards
+// can show a breadth/mode hover popup without an extra fetch.
+type RiskListItem = RiskScore & {
+  interventionBreadth: number;
+  autoShare: number;
+  augShare: number;
+  onetTaskCount: number;
+};
+
+function RiskCard({ risk }: { risk: RiskListItem }) {
   const aliases = ALIASES_BY_ROLE_ID.get(risk.roleId) ?? [];
 
   return (
     <Link href={`/risk/${risk.roleId}?seniority=${risk.seniority}`} className="block group">
-      <Card className="h-full transition-shadow hover:shadow-md">
+      <Card className="relative h-full overflow-hidden transition-shadow hover:shadow-md">
         <CardHeader>
           <CardTitle className="text-base group-hover:text-blue-600 transition-colors">
             {risk.roleName}
@@ -52,7 +63,7 @@ function RiskCard({ risk }: { risk: RiskScore }) {
             </CardDescription>
           )}
         </CardHeader>
-        <CardContent className="space-y-2">
+        <CardContent>
           <div className="flex items-baseline gap-2">
             <span className={`text-3xl font-bold ${riskColor(risk.score)}`}>
               {risk.score}
@@ -61,17 +72,41 @@ function RiskCard({ risk }: { risk: RiskScore }) {
               / 100 · {riskBand(risk.score)} automation risk
             </span>
           </div>
-          <p className="text-sm text-muted-foreground line-clamp-3">
-            {risk.reasoning}
-          </p>
         </CardContent>
+
+        {/* Click affordance — hints the card opens a detail page */}
+        <ChevronRight className="absolute right-3 top-3 z-10 h-4 w-4 text-muted-foreground/40 transition-all group-hover:translate-x-0.5 group-hover:text-blue-600" />
+
+        {/* Hover popup — slides up to reveal the breadth/mode bars */}
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 translate-y-3 border-t bg-card/95 px-6 py-4 opacity-0 shadow-[0_-8px_20px_-12px_rgba(0,0,0,0.25)] backdrop-blur-sm transition-all duration-300 ease-out group-hover:translate-y-0 group-hover:opacity-100">
+          <div className="space-y-3">
+            <div>
+              <div className="mb-1 flex items-baseline justify-between">
+                <span className="text-xs font-medium">Intervention Breadth</span>
+                <span className="text-xs text-muted-foreground">
+                  {Math.round(risk.interventionBreadth * 100)}% coverage
+                </span>
+              </div>
+              <Progress value={risk.interventionBreadth * 100} className="h-1.5" />
+            </div>
+            <div>
+              <div className="mb-1 flex items-baseline justify-between">
+                <span className="text-xs font-medium">Intervention Mode</span>
+                <span className="text-xs text-muted-foreground">
+                  {Math.round(risk.autoShare * 100)}% auto / {Math.round(risk.augShare * 100)}% augment
+                </span>
+              </div>
+              <Progress value={risk.autoShare * 100} className="h-1.5" />
+            </div>
+          </div>
+        </div>
       </Card>
     </Link>
   );
 }
 
-function groupByIndustry(scores: RiskScore[]) {
-  const groups = new Map<string, RiskScore[]>();
+function groupByIndustry(scores: RiskListItem[]) {
+  const groups = new Map<string, RiskListItem[]>();
   for (const risk of scores) {
     const group = groups.get(risk.industry) ?? [];
     group.push(risk);
@@ -83,7 +118,7 @@ function groupByIndustry(scores: RiskScore[]) {
 export default function RiskPage() {
   const [seniority, setSeniority] = useState("mid");
 
-  const { data: scores, isLoading, isError } = useQuery<RiskScore[]>({
+  const { data: scores, isLoading, isError } = useQuery<RiskListItem[]>({
     queryKey: ["risk-scores", seniority],
     queryFn: () =>
       fetch(`/api/risk?seniority=${seniority}`).then((r) => {
@@ -93,8 +128,9 @@ export default function RiskPage() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="relative min-h-screen bg-gray-50">
+      <FallingPattern className="pointer-events-none absolute inset-0 opacity-[0.85] [mask-image:radial-gradient(ellipse_at_center,transparent_3%,black_100%)]" />
+      <div className="relative z-10 max-w-6xl mx-auto px-4 py-8">
         <div className="flex items-start justify-between gap-4 mb-8">
           <div>
             <h1 className="text-3xl font-bold text-gray-900 flex items-center gap-2.5">
