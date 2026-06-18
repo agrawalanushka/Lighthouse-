@@ -235,6 +235,13 @@ export async function generateDigest(
       ];
     }
   }
+  // Shuffle pools before selection so repeated "Regenerate" clicks surface
+  // different articles even when the live feeds haven't changed yet.
+  function shuffle<T>(arr: T[]): T[] {
+    return [...arr].sort(() => Math.random() - 0.5);
+  }
+  aiPool = shuffle(aiPool);
+  careerPool = shuffle(careerPool);
 
   // 2a. General section: Claude picks the most impactful AI-industry stories
   const selectedAI = await selectItems(
