@@ -2,7 +2,7 @@
 
 > AI Career Navigator for Singapore Students
 
-Built for **SummerBuild 2026 Hackathon** — helping polytechnic, undergraduate and postgraduate students navigate their career path with personalized AI-powered insights.
+Built for **SummerBuild 2026 Hackathon** — helping computing students navigate their career path with personalized AI-powered insights.
 
 ---
 
