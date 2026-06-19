@@ -1,5 +1,4 @@
 import type { NextRequest } from "next/server";
-import type { RiskScore } from "@/lib/types";
 import rawRiskScores from "@/data/seed/risk-scores.json";
 import type { RiskScoreDetail } from "@/lib/risk/compute";
 
@@ -18,7 +17,10 @@ export async function GET(request: NextRequest) {
     scores = scores.filter((s) => s.seniority === seniorityParam);
   }
 
-  const result: RiskScore[] = scores.map((s) => ({
+  // Extra breadth/mode fields are passed through for the list page's hover
+  // popup. The shared RiskScore type is unchanged; consumers that only need
+  // RiskScore simply ignore these.
+  const result = scores.map((s) => ({
     roleId: s.roleId,
     roleName: s.roleName,
     score: s.score,
@@ -26,6 +28,10 @@ export async function GET(request: NextRequest) {
     sources: s.sources,
     industry: s.industry,
     seniority: s.seniority,
+    interventionBreadth: s.interventionBreadth,
+    autoShare: s.autoShare,
+    augShare: s.augShare,
+    onetTaskCount: s.onetTaskCount,
   }));
 
   return Response.json(result);

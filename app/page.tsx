@@ -3,7 +3,6 @@ import {
   Newspaper,
   ShieldAlert,
   MessageCircle,
-  ArrowRight,
   TrendingUp,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,6 +14,8 @@ import {
 } from "@/components/ui/card";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import { Typewriter } from "@/components/ui/typewriter-text";
+import { GetStartedButton } from "@/components/shared/get-started-button";
+import { GridBackground } from "@/components/ui/grid-background";
 
 const signals = [
   "Shopee expands engineering hub — 200+ roles open",
@@ -164,19 +165,20 @@ export default function HomePage() {
               For computing students in Singapore
             </p>
             <h1 className="mt-4 block min-h-[1.2em] max-w-2xl text-4xl font-bold leading-tight sm:text-5xl">
-              <Typewriter text="Light up your career path" speed={70} />
+              <Typewriter
+                text="Light up your career path"
+                speed={70}
+                deleteSpeed={40}
+                loop
+                delay={6000}
+              />
             </h1>
             <p className="mt-4 max-w-xl text-base text-primary-foreground/70 sm:text-lg">
               Lighthouse reads the news, the job postings, and the automation
               trends so you don&apos;t have to.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Button asChild size="lg">
-                <Link href="/signup">
-                  Get started
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
-              </Button>
+              <GetStartedButton className="text-primary-foreground" />
               <Button
                 asChild
                 size="lg"
@@ -210,7 +212,9 @@ export default function HomePage() {
       </section>
 
       {/* Scroll-reveal dashboard preview */}
-      <section className="bg-background">
+      <section className="relative overflow-hidden bg-background">
+        <GridBackground />
+        <div className="relative z-10">
         <ContainerScroll
           titleComponent={
             <div className="pb-4">
@@ -310,10 +314,12 @@ export default function HomePage() {
             </div>
           </div>
         </ContainerScroll>
+        </div>
       </section>
 
-      <section className="bg-background">
-        <div className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
+      <section className="relative overflow-hidden bg-background">
+        <GridBackground />
+        <div className="relative z-10 mx-auto max-w-5xl px-4 py-16 sm:py-20">
           <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
             Everything you need to plan your next move
           </h2>
@@ -419,12 +425,7 @@ export default function HomePage() {
               Takes about two minutes to get your first dashboard.
             </p>
           </div>
-          <Button asChild size="lg">
-            <Link href="/signup">
-              Get started
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </Button>
+          <GetStartedButton />
         </div>
       </section>
     </div>

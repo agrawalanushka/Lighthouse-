@@ -7,6 +7,7 @@ import { Bot, Send, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
+import { RipplesBackground } from "@/components/ui/rhythmic-ripples-background";
 
 type Message = { role: "user" | "assistant"; content: string };
 
@@ -142,7 +143,12 @@ function ChatPage() {
   }
 
   return (
-    <div className="flex flex-col h-[calc(100vh-4rem)]">
+    <div className="relative h-[calc(100vh-4rem)]">
+      {/* Full-width ripple layer (escapes the narrow chat column) */}
+      <div className="pointer-events-none fixed inset-x-0 bottom-0 top-16 z-0">
+        <RipplesBackground />
+      </div>
+      <div className="relative z-10 flex flex-col h-full">
       {/* Header */}
       <div className="flex items-center gap-3 pb-4 border-b mb-4">
         <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
@@ -217,6 +223,7 @@ function ChatPage() {
         >
           <Send className="w-4 h-4" />
         </Button>
+      </div>
       </div>
     </div>
   );
